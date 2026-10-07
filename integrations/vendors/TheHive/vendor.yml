@@ -1,0 +1,17 @@
+id: TheHive
+name: "TheHive"
+description: "TheHive is StrangeBee's security incident response platform for managing alerts, cases, tasks and observables, with Cortex analyzers and responders for enrichment and response"
+category: SOAR & Automation
+tags:
+  - incident-response
+  - investigation
+  - automation
+  - api
+homepage: "https://strangebee.com/thehive"
+visibility: 100
+flow:
+  description: "Drive TheHive from a workflow: create and update alerts, cases, tasks and observables, and run Cortex analyzers and responders."
+  examples:
+    - "Turn an external detection into a TheHive alert with its observables"
+    - "Auto-promote an alert to a case and create the standard playbook tasks"
+    - "Run Cortex analyzers on every new observable, then comment the verdict in the case"
