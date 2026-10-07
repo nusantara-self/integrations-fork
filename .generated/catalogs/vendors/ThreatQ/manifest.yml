@@ -16,10 +16,11 @@ tags:
 homepage: https://www.threatq.com
 logo:
   file: integrations/vendors/ThreatQ/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ThreatQ/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/ThreatQ/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/ThreatQ/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/ThreatQ/assets/logo.png
 useCases: []
 notifier: false
+flow: null
 externalIntegrations:
 - name: The Hive App for ThreatQ
   description: Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ
@@ -42,4 +43,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

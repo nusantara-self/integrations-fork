@@ -16,10 +16,16 @@ tags:
 homepage: https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint
 logo:
   file: integrations/vendors/MSDefenderForEndpoint/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSDefenderForEndpoint/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSDefenderForEndpoint/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSDefenderForEndpoint/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/MSDefenderForEndpoint/assets/logo.png
 useCases: []
 notifier: false
+flow:
+  description: Respond on Windows, macOS and Linux endpoints managed by Defender for Endpoint.
+  examples:
+  - Isolate a compromised machine and poll the action until it completes
+  - Quarantine a malicious file on the endpoint where it was seen
+  - Create a block indicator for a confirmed malicious IP, URL or hash
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 4
@@ -40,8 +46,8 @@ integrations:
     - ip
     - fqdn
     file: .upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_DeviceLookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_DeviceLookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_DeviceLookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_DeviceLookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_DeviceLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint HashReputation
@@ -53,8 +59,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderForEndpoint
     integration_type: null
   responders:
@@ -66,8 +72,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-PushIOC-BlockAndRemediate
@@ -78,8 +84,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlockAndRemediate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlockAndRemediate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlockAndRemediate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlockAndRemediate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlockAndRemediate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-RestrictAppExecution
@@ -90,8 +96,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-AutoInvestigation
@@ -102,8 +108,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-PushIOC-Allowed
@@ -114,8 +120,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-UnisolateMachine
@@ -126,8 +132,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-PushIOC-Warn
@@ -138,8 +144,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-PushIOC-Audit
@@ -150,8 +156,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-UnRestrictAppExecution
@@ -162,8 +168,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_UnRestrictAppExecution.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_UnRestrictAppExecution.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_UnRestrictAppExecution.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_UnRestrictAppExecution.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_UnRestrictAppExecution.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-PushIOC-Block
@@ -174,8 +180,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlock.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlock.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlock.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlock.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlock.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-StopAndQuarantineFile
@@ -186,8 +192,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-FullVirusScan
@@ -198,8 +204,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   functions: []
@@ -210,4 +216,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
-  total: 14
+  totalFlow: 1
+  total: 15

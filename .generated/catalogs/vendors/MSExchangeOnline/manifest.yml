@@ -10,10 +10,11 @@ tags: []
 homepage: https://www.microsoft.com/microsoft-365/exchange/email
 logo:
   file: integrations/vendors/MSExchangeOnline/assets/logo.svg
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSExchangeOnline/assets/logo.svg
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSExchangeOnline/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSExchangeOnline/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/MSExchangeOnline/assets/logo.svg
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -34,8 +35,8 @@ integrations:
     dataTypes:
     - mail
     file: .upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSExchangeOnline
     integration_type: null
   responders:
@@ -48,8 +49,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSExchangeOnline
     integration_type: null
   functions: []
@@ -60,4 +61,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

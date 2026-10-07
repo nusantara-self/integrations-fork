@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -25,8 +26,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js"
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js"
       }
     ]
   },
@@ -37,6 +38,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

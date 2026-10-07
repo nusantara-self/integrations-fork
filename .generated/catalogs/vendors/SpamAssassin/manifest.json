@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -28,8 +29,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/SpamAssassin/SpamAssassin.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SpamAssassin",
         "integration_type": null
       }
@@ -44,6 +45,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

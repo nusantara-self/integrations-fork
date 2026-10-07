@@ -8,14 +8,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/certsocietegenerale/abuse_finder",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Abuse_Finder/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Abuse_Finder/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Abuse_Finder/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Abuse_Finder/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -23,6 +23,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -41,14 +42,14 @@
       "incident-response"
     ],
     "homepage": "https://www.abuseipdb.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/AbuseIPDB/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/AbuseIPDB/assets/logo.svg",
     "visibility": 13,
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AbuseIPDB/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/AbuseIPDB/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -56,6 +57,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -73,7 +75,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AILOnionLookup/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/AILOnionLookup/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -81,6 +83,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -98,7 +101,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Airtable/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Airtable/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -106,6 +109,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -125,7 +129,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AnyRun/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/AnyRun/overview.md",
     "stats": {
       "totalAnalyzers": 7,
       "totalResponders": 0,
@@ -133,6 +137,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 7
     }
   },
@@ -152,7 +157,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AWSLambda/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/AWSLambda/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -160,6 +165,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -172,14 +178,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/ansible/awx",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/AWX/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/AWX/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AWX/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/AWX/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -187,6 +193,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -204,7 +211,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Axur/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Axur/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -212,6 +219,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -229,7 +237,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/BackscatterIO/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/BackscatterIO/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -237,6 +245,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -254,7 +263,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/BinalyzeAIR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/BinalyzeAIR/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -262,6 +271,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -280,14 +290,14 @@
       "incident-response"
     ],
     "homepage": "https://github.com/mandiant/capa",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Capa/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Capa/assets/logo.png",
     "visibility": 19,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Capa/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Capa/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -295,6 +305,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -314,7 +325,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Censys/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Censys/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -322,6 +333,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -341,7 +353,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CERTatPassiveDNS/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CERTatPassiveDNS/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -349,6 +361,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -366,7 +379,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ChainAbuse/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ChainAbuse/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -374,6 +387,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -391,7 +405,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CheckPhish/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CheckPhish/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -399,6 +413,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -416,7 +431,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CheckPoint/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CheckPoint/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -424,6 +439,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -436,14 +452,14 @@
     ],
     "tags": [],
     "homepage": "https://www.checkpoint.com/harmony/email-security/",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CheckPointHEC/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/CheckPointHEC/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CheckPointHEC/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CheckPointHEC/overview.md",
     "stats": {
       "totalAnalyzers": 5,
       "totalResponders": 3,
@@ -451,6 +467,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 8
     }
   },
@@ -468,7 +485,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CIRCLHashlookup/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CIRCLHashlookup/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -476,6 +493,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -493,7 +511,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CIRCLPassiveDNS/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CIRCLPassiveDNS/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -501,6 +519,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -518,7 +537,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CIRCLPassiveSSL/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CIRCLPassiveSSL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -526,6 +545,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -543,7 +563,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CIRCLVulnerabilityLookup/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CIRCLVulnerabilityLookup/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -551,6 +571,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -563,14 +584,14 @@
     ],
     "tags": [],
     "homepage": "",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoAMPforEndpoints/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CiscoAMPforEndpoints/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 5,
@@ -578,6 +599,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -590,14 +612,14 @@
     ],
     "tags": [],
     "homepage": "https://duo.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoDuo/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/CiscoDuo/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoDuo/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CiscoDuo/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 3,
@@ -605,6 +627,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -622,7 +645,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoThreatGrid/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CiscoThreatGrid/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -630,6 +653,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -647,7 +671,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoThreatResponse/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CiscoThreatResponse/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -655,6 +679,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -667,14 +692,14 @@
     ],
     "tags": [],
     "homepage": "https://umbrella.cisco.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoUmbrella/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/CiscoUmbrella/assets/logo.png",
     "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoUmbrella/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CiscoUmbrella/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -682,6 +707,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -694,14 +720,14 @@
     ],
     "tags": [],
     "homepage": "https://umbrella.cisco.com/products/threat-intelligence",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoUmbrellaInvestigate/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CiscoUmbrellaInvestigate/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -709,6 +735,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -726,7 +753,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CISMCAP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CISMCAP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -734,6 +761,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -753,7 +781,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ClamAV/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ClamAV/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -761,6 +789,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -773,14 +802,14 @@
     ],
     "tags": [],
     "homepage": "https://www.cloudflare.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Cloudflare/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Cloudflare/assets/logo.png",
     "visibility": 14,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Cloudflare/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Cloudflare/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -788,6 +817,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -805,7 +835,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Cluster25/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Cluster25/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -813,6 +843,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -830,7 +861,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ClusterHawk/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ClusterHawk/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -838,6 +869,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -860,7 +892,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CortexXSOAR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CortexXSOAR/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -868,6 +900,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -886,14 +919,14 @@
       "community-intelligence"
     ],
     "homepage": "https://www.crowdsec.net",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Crowdsec/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Crowdsec/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Crowdsec/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Crowdsec/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -901,6 +934,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -919,14 +953,14 @@
       "edr"
     ],
     "homepage": "https://www.crowdstrike.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg",
     "visibility": 1,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CrowdstrikeFalcon/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CrowdstrikeFalcon/overview.md",
     "stats": {
       "totalAnalyzers": 11,
       "totalResponders": 9,
@@ -934,7 +968,8 @@
       "totalUseCases": 2,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
-      "total": 21
+      "totalFlow": 1,
+      "total": 22
     }
   },
   "Crtsh": {
@@ -951,7 +986,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Crtsh/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Crtsh/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -959,6 +994,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -978,7 +1014,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CuckooSandbox/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CuckooSandbox/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -986,6 +1022,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -1003,7 +1040,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CyberChef/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/CyberChef/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -1011,6 +1048,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -1028,7 +1066,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Cyberprotect/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Cyberprotect/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1036,6 +1074,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1053,7 +1092,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Cylance/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Cylance/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1061,6 +1100,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1078,7 +1118,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNS-RPZ/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DNS-RPZ/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -1086,6 +1126,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1103,7 +1144,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNSDB/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DNSDB/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -1111,6 +1152,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -1128,7 +1170,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNSdumpster/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DNSdumpster/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1136,6 +1178,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1153,7 +1196,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNSLookingglass/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DNSLookingglass/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1161,6 +1204,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1178,7 +1222,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNSSinkhole/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DNSSinkhole/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1186,6 +1230,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1198,14 +1243,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/DomainMailSPFDMARC",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/DomainMailSPFDMARC/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/DomainMailSPFDMARC/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DomainMailSPFDMARC/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DomainMailSPFDMARC/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1213,6 +1258,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1232,7 +1278,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DomainTools/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DomainTools/overview.md",
     "stats": {
       "totalAnalyzers": 10,
       "totalResponders": 0,
@@ -1240,6 +1286,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 10
     }
   },
@@ -1257,7 +1304,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DomainToolsIris/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DomainToolsIris/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 2,
@@ -1265,6 +1312,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 4
     }
   },
@@ -1282,7 +1330,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DShield/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/DShield/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1290,6 +1338,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1307,7 +1356,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EchoTrail/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/EchoTrail/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1315,6 +1364,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1332,7 +1382,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EclecticIQ/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/EclecticIQ/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -1340,6 +1390,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -1358,14 +1409,14 @@
       "threat-hunting"
     ],
     "homepage": "https://www.elastic.co",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Elasticsearch/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Elasticsearch/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Elasticsearch/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Elasticsearch/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -1373,7 +1424,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
-      "total": 3
+      "totalFlow": 1,
+      "total": 4
     }
   },
   "EmailRep": {
@@ -1391,14 +1443,14 @@
       "incident-response"
     ],
     "homepage": "https://emailrep.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmailRep/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/EmailRep/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EmailRep/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/EmailRep/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1406,6 +1458,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1423,7 +1476,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EmergingThreats/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/EmergingThreats/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -1431,6 +1484,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -1443,14 +1497,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/EmlParser",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/EmlParser/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EmlParser/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/EmlParser/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1458,6 +1512,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1470,14 +1525,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/FileInfo",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/FileInfo/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/FileInfo/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FileInfo/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/FileInfo/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1485,6 +1540,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1502,7 +1558,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FireEyeiSight/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/FireEyeiSight/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1510,6 +1566,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1527,7 +1584,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FireHOL/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/FireHOL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1535,6 +1592,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1552,7 +1610,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ForcepointWebsensePing/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ForcepointWebsensePing/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1560,6 +1618,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1579,7 +1638,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FoxIO/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/FoxIO/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1587,6 +1646,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1604,7 +1664,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Gatewatcher_CTI/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Gatewatcher_CTI/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -1612,6 +1672,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -1629,7 +1690,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Gmail/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Gmail/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 5,
@@ -1637,6 +1698,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -1654,7 +1716,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleDNS/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/GoogleDNS/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1662,6 +1724,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1679,7 +1742,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleSafebrowsing/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/GoogleSafebrowsing/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1687,6 +1750,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1707,14 +1771,14 @@
       "incident-response"
     ],
     "homepage": "https://threatlabs.google.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
     "visibility": 7,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleThreatIntelligence/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/GoogleThreatIntelligence/overview.md",
     "stats": {
       "totalAnalyzers": 5,
       "totalResponders": 0,
@@ -1722,6 +1786,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -1739,7 +1804,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleVisionAPI/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/GoogleVisionAPI/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1747,6 +1812,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1763,14 +1829,14 @@
       "false-positive-reduction"
     ],
     "homepage": "https://www.greynoise.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/GreyNoise/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/GreyNoise/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GreyNoise/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/GreyNoise/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1778,6 +1844,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1797,7 +1864,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GRR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/GRR/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1805,6 +1872,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1824,7 +1892,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/HarfangLab/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/HarfangLab/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 31,
@@ -1832,7 +1900,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
-      "total": 32
+      "totalFlow": 1,
+      "total": 33
     }
   },
   "Hashdd": {
@@ -1849,7 +1918,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Hashdd/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Hashdd/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -1857,6 +1926,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -1875,14 +1945,14 @@
       "incident-response"
     ],
     "homepage": "https://haveibeenpwned.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/HIBP/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/HIBP/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/HIBP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/HIBP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1890,6 +1960,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1908,14 +1979,14 @@
       "incident-response"
     ],
     "homepage": "https://hunter.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Hunterio/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Hunterio/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Hunterio/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Hunterio/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1923,6 +1994,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1941,14 +2013,14 @@
       "incident-response"
     ],
     "homepage": "https://www.hybrid-analysis.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/HybridAnalysis/assets/logo.ico",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/HybridAnalysis/assets/logo.ico",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/HybridAnalysis/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/HybridAnalysis/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1956,6 +2028,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1975,7 +2048,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IBMQRadar/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/IBMQRadar/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -1983,6 +2056,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2002,7 +2076,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IBMXForce/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/IBMXForce/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2010,6 +2084,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2027,7 +2102,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Inoitsu/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Inoitsu/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2035,6 +2110,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2051,14 +2127,14 @@
       "security-automation"
     ],
     "homepage": "https://www.rapid7.com/products/insightconnect/",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/InsightConnect/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/InsightConnect/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/InsightConnect/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/InsightConnect/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2066,6 +2142,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2083,7 +2160,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IntezerCommunity/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/IntezerCommunity/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2091,6 +2168,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2103,14 +2181,14 @@
     ],
     "tags": [],
     "homepage": "https://ip-api.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/IP-API/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/IP-API/assets/logo.png",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IP-API/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/IP-API/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2118,6 +2196,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2136,14 +2215,14 @@
       "incident-response"
     ],
     "homepage": "https://ipinfo.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/IPinfo/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/IPinfo/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IPinfo/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/IPinfo/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -2151,6 +2230,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -2168,7 +2248,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IPVoid/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/IPVoid/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2176,6 +2256,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2193,7 +2274,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/isMalicious/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/isMalicious/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2201,6 +2282,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2218,7 +2300,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IVRE/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/IVRE/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2226,6 +2308,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2243,7 +2326,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/JAMFProtect/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/JAMFProtect/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -2251,16 +2334,24 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
   "JIRA": {
     "id": "JIRA",
-    "name": "JIRA",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
+    "name": "Jira Cloud",
+    "description": "Jira Cloud is Atlassian's issue tracking and project management platform, used by security teams to open and follow remediation tickets with the teams that own the affected systems",
+    "category": [
+      "Collaboration"
+    ],
+    "tags": [
+      "ticketing",
+      "collaboration",
+      "incident-response",
+      "api"
+    ],
+    "homepage": "https://www.atlassian.com/software/jira",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -2268,7 +2359,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/JIRA/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/JIRA/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2276,7 +2367,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 1
+      "totalFlow": 1,
+      "total": 2
     }
   },
   "JoeSandbox": {
@@ -2293,7 +2385,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/JoeSandbox/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/JoeSandbox/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -2301,6 +2393,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -2318,7 +2411,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Jupyter/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Jupyter/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -2326,6 +2419,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -2338,14 +2432,14 @@
     ],
     "tags": [],
     "homepage": "https://kafka.apache.org",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Kafka/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Kafka/assets/logo.svg",
     "visibility": 50,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Kafka/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Kafka/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2353,6 +2447,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2370,7 +2465,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/KasperskyTIP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/KasperskyTIP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2378,6 +2473,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2395,7 +2491,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/KnowBe4/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/KnowBe4/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -2403,6 +2499,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2415,14 +2512,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/LdapQuery",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/LdapQuery/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/LdapQuery/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/LdapQuery/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/LdapQuery/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2430,6 +2527,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2447,7 +2545,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Lookyloo/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Lookyloo/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2455,6 +2553,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2472,7 +2571,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/LupovisProwl/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/LupovisProwl/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2480,6 +2579,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2497,7 +2597,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Macadress/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Macadress/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2505,6 +2605,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2517,14 +2618,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/responders/Mailer",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Mailer/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Mailer/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Mailer/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Mailer/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -2532,6 +2633,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2544,14 +2646,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/responders/MailIncidentStatus",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MailIncidentStatus/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MailIncidentStatus/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MailIncidentStatus/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MailIncidentStatus/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -2559,6 +2661,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2576,7 +2679,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Malpedia/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Malpedia/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2584,6 +2687,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2602,14 +2706,14 @@
       "incident-response"
     ],
     "homepage": "https://www.maltiverse.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Maltiverse/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Maltiverse/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Maltiverse/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Maltiverse/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2617,6 +2721,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2635,14 +2740,14 @@
       "incident-response"
     ],
     "homepage": "https://bazaar.abuse.ch",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MalwareBazaar/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MalwareBazaar/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MalwareBazaar/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MalwareBazaar/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2650,6 +2755,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2667,7 +2773,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MalwareClustering/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MalwareClustering/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2675,6 +2781,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2692,7 +2799,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Malwares/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Malwares/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -2700,6 +2807,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -2719,7 +2827,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Mattermost/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Mattermost/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2727,6 +2835,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2745,14 +2854,14 @@
       "incident-response"
     ],
     "homepage": "https://www.maxmind.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MaxMind/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MaxMind/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MaxMind/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MaxMind/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2760,6 +2869,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2777,7 +2887,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MetaDefender/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MetaDefender/overview.md",
     "stats": {
       "totalAnalyzers": 5,
       "totalResponders": 0,
@@ -2785,6 +2895,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -2803,14 +2914,14 @@
       "collaborative-defense"
     ],
     "homepage": "https://www.misp-project.org",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MISP/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MISP/assets/logo.png",
     "visibility": 6,
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MISP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MISP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2818,6 +2929,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2835,7 +2947,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MISPWarningLists/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MISPWarningLists/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2843,6 +2955,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2861,14 +2974,14 @@
       "incident-response"
     ],
     "homepage": "https://www.mnemonic.no",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MnemonicPDNS/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MnemonicPDNS/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MnemonicPDNS/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MnemonicPDNS/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -2876,6 +2989,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -2895,14 +3009,14 @@
       "microsoft"
     ],
     "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSDefenderForEndpoint/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSDefenderForEndpoint/assets/logo.png",
     "visibility": 4,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderForEndpoint/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MSDefenderForEndpoint/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 12,
@@ -2910,7 +3024,42 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 14
+      "totalFlow": 1,
+      "total": 15
+    }
+  },
+  "MSDefenderGraphSecurityAPI": {
+    "id": "MSDefenderGraphSecurityAPI",
+    "name": "Microsoft Defender (via Graph Security API)",
+    "description": "Aggregates security alerts from any product in the Microsoft Defender suite (Defender for Endpoint, Identity, Office 365, Cloud Apps, Sentinel, etc.) through the unified Microsoft Graph Security API, regardless of the originating source",
+    "category": [
+      "SIEM & Analytics"
+    ],
+    "tags": [
+      "microsoft",
+      "microsoft-defender",
+      "graph-security-api",
+      "siem",
+      "incident-response"
+    ],
+    "homepage": "https://learn.microsoft.com/en-us/graph/api/resources/security-api-overview",
+    "logo_url": "",
+    "visibility": 5,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MSDefenderGraphSecurityAPI/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "totalFlow": 1,
+      "total": 1
     }
   },
   "MSDefenderOffice365": {
@@ -2929,14 +3078,14 @@
       "microsoft"
     ],
     "homepage": "https://www.microsoft.com/security/business/threat-protection/office-365-defender",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSDefenderOffice365/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSDefenderOffice365/assets/logo.png",
     "visibility": 9,
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderOffice365/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MSDefenderOffice365/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 4,
@@ -2944,6 +3093,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -2964,14 +3114,14 @@
       "incident-response"
     ],
     "homepage": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSEntraID/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSEntraID/assets/logo.png",
     "visibility": 5,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSEntraID/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MSEntraID/overview.md",
     "stats": {
       "totalAnalyzers": 7,
       "totalResponders": 5,
@@ -2979,7 +3129,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 12
+      "totalFlow": 1,
+      "total": 13
     }
   },
   "MSExchangeOnline": {
@@ -2991,14 +3142,14 @@
     ],
     "tags": [],
     "homepage": "https://www.microsoft.com/microsoft-365/exchange/email",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSExchangeOnline/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSExchangeOnline/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSExchangeOnline/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MSExchangeOnline/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -3006,6 +3157,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3018,14 +3170,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/MsgParser",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MsgParser/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MsgParser/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MsgParser/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MsgParser/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3033,6 +3185,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3050,7 +3203,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSRiskIQPassiveTotal/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MSRiskIQPassiveTotal/overview.md",
     "stats": {
       "totalAnalyzers": 11,
       "totalResponders": 0,
@@ -3058,6 +3211,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 11
     }
   },
@@ -3070,14 +3224,14 @@
     ],
     "tags": [],
     "homepage": "https://azure.microsoft.com/products/microsoft-sentinel",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSSentinel/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSSentinel/assets/logo.svg",
     "visibility": 5,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSSentinel/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MSSentinel/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -3085,7 +3239,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 1
+      "totalFlow": 1,
+      "total": 2
     }
   },
   "MSTeams": {
@@ -3097,14 +3252,14 @@
     ],
     "tags": [],
     "homepage": "https://www.microsoft.com/en-us/microsoft-teams",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSTeams/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSTeams/assets/logo.svg",
     "visibility": 50,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSTeams/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/MSTeams/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -3112,6 +3267,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3128,14 +3284,14 @@
       "open-source"
     ],
     "homepage": "https://n8n.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/n8n/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/n8n/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/n8n/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/n8n/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3143,6 +3299,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3160,7 +3317,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/NERD/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/NERD/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3168,6 +3325,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3187,7 +3345,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Nessus/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Nessus/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3195,6 +3353,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3212,7 +3371,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Netcraft/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Netcraft/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3220,6 +3379,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3237,7 +3397,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/NSRL/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/NSRL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3245,6 +3405,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3264,7 +3425,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Okta/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Okta/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3272,6 +3433,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3290,14 +3452,14 @@
       "incident-response"
     ],
     "homepage": "https://www.onyphe.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Onyphe/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Onyphe/assets/logo.png",
     "visibility": 17,
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Onyphe/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Onyphe/overview.md",
     "stats": {
       "totalAnalyzers": 5,
       "totalResponders": 0,
@@ -3305,6 +3467,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -3322,7 +3485,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ONYPHEActiveScan/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ONYPHEActiveScan/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3330,6 +3493,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3349,7 +3513,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OpenCTI/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/OpenCTI/overview.md",
     "stats": {
       "totalAnalyzers": 4,
       "totalResponders": 0,
@@ -3357,6 +3521,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 4
     }
   },
@@ -3369,14 +3534,14 @@
     ],
     "tags": [],
     "homepage": "https://www.opencve.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OpenCVE/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/OpenCVE/assets/logo.png",
     "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OpenCVE/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/OpenCVE/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3384,6 +3549,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3401,7 +3567,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OrionMalware/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/OrionMalware/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3409,6 +3575,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3427,14 +3594,14 @@
       "incident-response"
     ],
     "homepage": "https://otx.alienvault.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OTXQuery/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/OTXQuery/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OTXQuery/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/OTXQuery/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3442,6 +3609,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3454,14 +3622,14 @@
     ],
     "tags": [],
     "homepage": "https://www.ovhcloud.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OvhCloud/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/OvhCloud/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OvhCloud/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/OvhCloud/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 2,
@@ -3469,6 +3637,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -3488,7 +3657,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoAutofocus/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoAutofocus/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -3496,6 +3665,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -3513,7 +3683,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoCortexXDR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoCortexXDR/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 8,
@@ -3521,6 +3691,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 8
     }
   },
@@ -3538,7 +3709,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoNGFW/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoNGFW/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 16,
@@ -3546,6 +3717,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 16
     }
   },
@@ -3563,7 +3735,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoWildFire/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoWildFire/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -3571,6 +3743,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3588,7 +3761,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Patrowl/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Patrowl/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3596,6 +3769,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3608,14 +3782,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/PDFPreview",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/PDFPreview/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/PDFPreview/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PDFPreview/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/PDFPreview/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3623,6 +3797,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3640,7 +3815,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PhishingInitiative/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/PhishingInitiative/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -3648,6 +3823,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3665,14 +3841,14 @@
       "community-intelligence"
     ],
     "homepage": "https://www.phishtank.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/PhishTank/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/PhishTank/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PhishTank/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/PhishTank/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3680,6 +3856,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3694,14 +3871,14 @@
       "email-security"
     ],
     "homepage": "https://www.proofpoint.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Proofpoint/assets/logo.png",
     "visibility": 10,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Proofpoint/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Proofpoint/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3709,6 +3886,7 @@
       "totalUseCases": 2,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -3726,7 +3904,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Pulsedive/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Pulsedive/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3734,6 +3912,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3746,14 +3925,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/QrDecode",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/QrDecode/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/QrDecode/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/QrDecode/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/QrDecode/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3761,6 +3940,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3778,7 +3958,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/RDAP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/RDAP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3786,6 +3966,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3804,14 +3985,14 @@
       "incident-response"
     ],
     "homepage": "https://www.recordedfuture.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/RecordedFuture/assets/logo.png",
     "visibility": 8,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/RecordedFuture/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/RecordedFuture/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3819,7 +4000,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 1
+      "totalFlow": 1,
+      "total": 2
     }
   },
   "Redis": {
@@ -3838,7 +4020,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Redis/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Redis/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -3846,6 +4028,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3863,7 +4046,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Redmine/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Redmine/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3871,6 +4054,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3888,7 +4072,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Robtex/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Robtex/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -3896,6 +4080,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -3908,14 +4093,14 @@
     ],
     "tags": [],
     "homepage": "https://bestpractical.com/request-tracker",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RT4/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/RT4/assets/logo.png",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/RT4/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/RT4/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3923,6 +4108,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3940,7 +4126,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ScanMalware/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ScanMalware/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3948,6 +4134,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3965,7 +4152,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SecurityTrails/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/SecurityTrails/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -3973,6 +4160,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3985,14 +4173,14 @@
     ],
     "tags": [],
     "homepage": "https://www.sekoia.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SEKOIAIntelligenceCenter/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/SEKOIAIntelligenceCenter/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -4000,6 +4188,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -4017,7 +4206,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SendGrid/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/SendGrid/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -4025,6 +4214,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4042,7 +4232,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SentinelOne/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/SentinelOne/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 1,
@@ -4050,7 +4240,41 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 4
+    }
+  },
+  "ServiceNow": {
+    "id": "ServiceNow",
+    "name": "ServiceNow",
+    "description": "ServiceNow is an enterprise IT service management platform that handles incidents, change requests and configuration items, letting security teams hand off remediation work to IT and keep tickets and cases in sync",
+    "category": [
+      "Collaboration"
+    ],
+    "tags": [
+      "ticketing",
+      "automation",
+      "incident-response",
+      "api"
+    ],
+    "homepage": "https://www.servicenow.com",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ServiceNow/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "totalFlow": 1,
+      "total": 1
     }
   },
   "Shodan": {
@@ -4069,14 +4293,14 @@
       "incident-response"
     ],
     "homepage": "https://www.shodan.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Shodan/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Shodan/assets/logo.png",
     "visibility": 11,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Shodan/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Shodan/overview.md",
     "stats": {
       "totalAnalyzers": 6,
       "totalResponders": 0,
@@ -4084,6 +4308,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 6
     }
   },
@@ -4102,14 +4327,14 @@
       "security-automation"
     ],
     "homepage": "https://shuffler.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Shuffle/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Shuffle/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Shuffle/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Shuffle/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -4117,6 +4342,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -4134,7 +4360,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SinkDB/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/SinkDB/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4142,6 +4368,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4159,14 +4386,14 @@
       "chat"
     ],
     "homepage": "https://slack.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Slack/assets/logo.png",
     "visibility": 12,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Slack/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Slack/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -4174,7 +4401,8 @@
       "totalUseCases": 2,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
-      "total": 3
+      "totalFlow": 1,
+      "total": 4
     }
   },
   "SophosIntelix": {
@@ -4191,7 +4419,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SophosIntelix/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/SophosIntelix/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -4199,6 +4427,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -4216,7 +4445,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SpamAssassin/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/SpamAssassin/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4224,6 +4453,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4241,7 +4471,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SpamhausDBL/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/SpamhausDBL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4249,6 +4479,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4267,14 +4498,14 @@
       "correlation"
     ],
     "homepage": "https://www.splunk.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Splunk/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Splunk/assets/logo.png",
     "visibility": 2,
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Splunk/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Splunk/overview.md",
     "stats": {
       "totalAnalyzers": 11,
       "totalResponders": 1,
@@ -4282,7 +4513,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 2,
       "totalNotifiers": 0,
-      "total": 15
+      "totalFlow": 1,
+      "total": 16
     }
   },
   "StamusNetworks": {
@@ -4299,7 +4531,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/StamusNetworks/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/StamusNetworks/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4307,6 +4539,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4324,7 +4557,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/StopForumSpam/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/StopForumSpam/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4332,6 +4565,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4349,7 +4583,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Suspicious/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Suspicious/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -4357,6 +4591,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4374,7 +4609,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/TeamCymruMHR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/TeamCymruMHR/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4382,6 +4617,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4400,14 +4636,14 @@
       "incident-response"
     ],
     "homepage": "https://telegram.org",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Telegram/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Telegram/assets/logo.svg",
     "visibility": 20,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Telegram/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Telegram/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -4415,6 +4651,40 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
+      "total": 1
+    }
+  },
+  "TheHive": {
+    "id": "TheHive",
+    "name": "TheHive",
+    "description": "TheHive is StrangeBee's security incident response platform for managing alerts, cases, tasks and observables, with Cortex analyzers and responders for enrichment and response",
+    "category": [
+      "SOAR & Automation"
+    ],
+    "tags": [
+      "incident-response",
+      "investigation",
+      "automation",
+      "api"
+    ],
+    "homepage": "https://strangebee.com/thehive",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/TheHive/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "totalFlow": 1,
       "total": 1
     }
   },
@@ -4437,7 +4707,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatConnect/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ThreatConnect/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -4445,6 +4715,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4462,7 +4733,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatFox/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ThreatFox/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4470,6 +4741,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4487,7 +4759,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatMiner/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ThreatMiner/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4495,6 +4767,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4514,14 +4787,14 @@
       "enrichment"
     ],
     "homepage": "https://www.threatq.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ThreatQ/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/ThreatQ/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatQ/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ThreatQ/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -4529,6 +4802,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4546,7 +4820,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Thunderstorm/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Thunderstorm/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4554,6 +4828,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4576,7 +4851,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Tines/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Tines/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -4584,6 +4859,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4601,7 +4877,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/TorBlutmagie/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/TorBlutmagie/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4609,6 +4885,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4626,7 +4903,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/TorProject/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/TorProject/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4634,6 +4911,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4651,7 +4929,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Triage/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Triage/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4659,6 +4937,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4676,7 +4955,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/UnshortenLink/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/UnshortenLink/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4684,6 +4963,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4701,7 +4981,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/urlDNA.io/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/urlDNA.io/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -4709,6 +4989,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -4727,14 +5008,14 @@
       "incident-response"
     ],
     "homepage": "https://urlhaus.abuse.ch",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/URLhaus/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/URLhaus/assets/logo.png",
     "visibility": 16,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/URLhaus/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/URLhaus/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4742,6 +5023,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4760,14 +5042,14 @@
       "incident-response"
     ],
     "homepage": "https://urlscan.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Urlscan.io/assets/logo.ico",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Urlscan.io/assets/logo.ico",
     "visibility": 15,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Urlscan.io/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Urlscan.io/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -4775,6 +5057,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -4792,7 +5075,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Valhalla/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Valhalla/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4800,6 +5083,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4812,14 +5096,14 @@
     ],
     "tags": [],
     "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/ValidateObservable",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ValidateObservable/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/ValidateObservable/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ValidateObservable/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ValidateObservable/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4827,6 +5111,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4846,14 +5131,14 @@
       "forensic-collection"
     ],
     "homepage": "https://docs.velociraptor.app",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Velociraptor/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Velociraptor/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Velociraptor/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Velociraptor/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -4861,6 +5146,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4878,7 +5164,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Verifalia/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Verifalia/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4886,6 +5172,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4905,7 +5192,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Virusshare/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Virusshare/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4913,6 +5200,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4932,14 +5220,14 @@
       "incident-response"
     ],
     "homepage": "https://www.virustotal.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/VirusTotal/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/VirusTotal/assets/logo.svg",
     "visibility": 3,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/VirusTotal/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/VirusTotal/overview.md",
     "stats": {
       "totalAnalyzers": 4,
       "totalResponders": 0,
@@ -4947,7 +5235,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 4
+      "totalFlow": 1,
+      "total": 5
     }
   },
   "VMRay": {
@@ -4964,7 +5253,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/VMRay/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/VMRay/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4972,6 +5261,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4989,7 +5279,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Vulners/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Vulners/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -4997,6 +5287,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -5014,7 +5305,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Watcher/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Watcher/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 4,
@@ -5022,6 +5313,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -5041,7 +5333,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Wazuh/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Wazuh/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -5049,6 +5341,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -5066,7 +5359,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/WOT/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/WOT/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -5074,6 +5367,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -5091,7 +5385,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/XposedOrNot/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/XposedOrNot/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -5099,6 +5393,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -5116,14 +5411,14 @@
       "malware-classification"
     ],
     "homepage": "https://virustotal.github.io/yara/",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Yara/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Yara/assets/logo.png",
     "visibility": 18,
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Yara/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Yara/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -5131,6 +5426,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -5148,7 +5444,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Yeti/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Yeti/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -5156,6 +5452,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -5173,7 +5470,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ZEROFOX/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/ZEROFOX/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -5181,6 +5478,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -5200,7 +5498,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Zscaler/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.generated/docs/vendors/Zscaler/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 12,
@@ -5208,6 +5506,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 14
     }
   }

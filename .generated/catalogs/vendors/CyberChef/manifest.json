@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -28,8 +29,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef",
         "integration_type": null
       },
@@ -43,8 +44,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef",
         "integration_type": null
       },
@@ -58,8 +59,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef",
         "integration_type": null
       }
@@ -74,6 +75,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 3
   }
 }

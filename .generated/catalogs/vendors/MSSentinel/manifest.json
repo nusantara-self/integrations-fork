@@ -7,11 +7,19 @@
   "homepage": "https://azure.microsoft.com/products/microsoft-sentinel",
   "logo": {
     "file": "integrations/vendors/MSSentinel/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSSentinel/assets/logo.svg",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSSentinel/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSSentinel/assets/logo.svg",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/MSSentinel/assets/logo.svg"
   },
   "useCases": [],
   "notifier": false,
+  "flow": {
+    "description": "Work Sentinel incidents from TheHive Flow and maintain Sentinel watchlists.",
+    "examples": [
+      "Import Sentinel incidents with their entities as TheHive alerts and observables",
+      "Write the TheHive analysis back as a comment on the Sentinel incident",
+      "Close the Sentinel incident with the right classification when the case is closed"
+    ]
+  },
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 5,
@@ -29,8 +37,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js"
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js"
       }
     ]
   },
@@ -41,6 +49,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
-    "total": 1
+    "totalFlow": 1,
+    "total": 2
   }
 }

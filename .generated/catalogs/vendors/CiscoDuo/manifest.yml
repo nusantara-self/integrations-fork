@@ -9,10 +9,11 @@ tags: []
 homepage: https://duo.com
 logo:
   file: integrations/vendors/CiscoDuo/assets/logo.svg
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoDuo/assets/logo.svg
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CiscoDuo/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/CiscoDuo/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/CiscoDuo/assets/logo.svg
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -29,8 +30,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CiscoDuo/DuoUnlockUserAccount.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoDuo/DuoUnlockUserAccount.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoDuo/DuoUnlockUserAccount.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoDuo/DuoUnlockUserAccount.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/CiscoDuo/DuoUnlockUserAccount.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo
     integration_type: null
   - name: DuoBypassUserAccount
@@ -42,8 +43,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CiscoDuo/DuoBypassUserAccount.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoDuo/DuoBypassUserAccount.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoDuo/DuoBypassUserAccount.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoDuo/DuoBypassUserAccount.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/CiscoDuo/DuoBypassUserAccount.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo
     integration_type: null
   - name: DuoLockUserAccount
@@ -54,8 +55,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CiscoDuo/DuoLockUserAccount.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoDuo/DuoLockUserAccount.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoDuo/DuoLockUserAccount.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoDuo/DuoLockUserAccount.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/CiscoDuo/DuoLockUserAccount.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo
     integration_type: null
   functions: []
@@ -66,4 +67,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 3

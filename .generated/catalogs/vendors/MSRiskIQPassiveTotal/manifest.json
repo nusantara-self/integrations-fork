@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -26,8 +27,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -43,8 +44,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Enrichment.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Enrichment.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Enrichment.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Enrichment.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Enrichment.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -60,8 +61,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Passive_Dns.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Passive_Dns.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Passive_Dns.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Passive_Dns.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Passive_Dns.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -76,8 +77,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -93,8 +94,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Components.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Components.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Components.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Components.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Components.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -110,8 +111,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -127,8 +128,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Trackers.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Trackers.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Trackers.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Trackers.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Trackers.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -144,8 +145,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -161,8 +162,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -178,8 +179,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Whois_Details.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Whois_Details.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Whois_Details.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Whois_Details.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Whois_Details.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -195,8 +196,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       }
@@ -211,6 +212,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 11
   }
 }

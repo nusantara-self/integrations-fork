@@ -15,10 +15,11 @@ tags:
 homepage: https://urlscan.io
 logo:
   file: integrations/vendors/Urlscan.io/assets/logo.ico
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Urlscan.io/assets/logo.ico
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Urlscan.io/assets/logo.ico
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Urlscan.io/assets/logo.ico
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Urlscan.io/assets/logo.ico
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 15
@@ -41,8 +42,8 @@ integrations:
     - fqdn
     - url
     file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io
     integration_type: null
   - name: Urlscan.io Scan
@@ -55,8 +56,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io
     integration_type: null
   responders: []
@@ -68,4 +69,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

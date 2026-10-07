@@ -10,10 +10,11 @@ tags: []
 homepage: https://github.com/certsocietegenerale/abuse_finder
 logo:
   file: integrations/vendors/Abuse_Finder/assets/logo.svg
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Abuse_Finder/assets/logo.svg
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Abuse_Finder/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Abuse_Finder/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Abuse_Finder/assets/logo.svg
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -36,8 +37,8 @@ integrations:
     - url
     - mail
     file: .upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Abuse_Finder/Abuse_Finder.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Abuse_Finder
     integration_type: null
   responders: []
@@ -49,4 +50,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

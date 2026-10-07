@@ -11,11 +11,12 @@
   "homepage": "https://n8n.io",
   "logo": {
     "file": "integrations/vendors/n8n/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/n8n/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/n8n/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/n8n/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/n8n/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [
     {
       "name": "Cortex and TheHive Nodes",
@@ -48,8 +49,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/n8n/n8n.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/n8n/n8n.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/n8n/n8n.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/n8n/n8n.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/n8n/n8n.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/n8n",
         "integration_type": null
       }
@@ -63,6 +64,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 2
   }
 }

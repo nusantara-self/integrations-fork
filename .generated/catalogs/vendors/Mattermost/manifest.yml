@@ -11,6 +11,7 @@ homepage: https://mattermost.com
 logo: {}
 useCases: []
 notifier: true
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 50
@@ -27,4 +28,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 1
+  totalFlow: 0
   total: 1

@@ -11,6 +11,7 @@ homepage: https://any.run/?utm_source=thehive&utm_medium=documentation&utm_campa
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
@@ -29,8 +30,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   - name: ANY.RUN Sandbox URL Android
@@ -41,8 +42,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   - name: ANY.RUN Sandbox File Linux
@@ -53,8 +54,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   - name: ANY.RUN Sandbox URL Linux
@@ -65,8 +66,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   - name: ANY.RUN Sandbox File Android
@@ -77,8 +78,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   - name: ANY.RUN Sandbox File Windows
@@ -89,8 +90,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   - name: ANY.RUN TI Lookup
@@ -104,8 +105,8 @@ integrations:
     - url
     - hash
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   responders: []
@@ -117,4 +118,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 7

@@ -10,6 +10,7 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
@@ -30,8 +31,8 @@ integrations:
     - url
     - hash
     file: .upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoWildFire
     integration_type: null
   responders:
@@ -45,8 +46,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoWildFire
     integration_type: null
   functions: []
@@ -57,4 +58,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

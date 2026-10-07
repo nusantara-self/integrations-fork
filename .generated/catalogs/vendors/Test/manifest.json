@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": false,
   "visibility": "low",
@@ -33,8 +34,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Test/test.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/test.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/test.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Test/test.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Test/test.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test",
         "integration_type": "local"
       },
@@ -52,8 +53,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Test/DevTools_Echo.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/DevTools_Echo.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/DevTools_Echo.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Test/DevTools_Echo.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Test/DevTools_Echo.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test",
         "integration_type": "local"
       }
@@ -67,6 +68,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 2
   }
 }

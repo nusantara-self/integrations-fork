@@ -10,6 +10,7 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -26,8 +27,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX
     integration_type: null
   - name: ZEROFOX Close alert
@@ -38,8 +39,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX
     integration_type: null
   functions: []
@@ -50,4 +51,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

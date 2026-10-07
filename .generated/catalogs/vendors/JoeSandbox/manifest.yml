@@ -10,6 +10,7 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
@@ -27,8 +28,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox
     integration_type: null
   - name: JoeSandbox Url Analysis
@@ -39,8 +40,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox
     integration_type: null
   - name: JoeSandbox File Analysis Inet
@@ -51,8 +52,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox
     integration_type: null
   responders: []
@@ -64,4 +65,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 3

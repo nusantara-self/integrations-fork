@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -41,8 +42,8 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
         "integration_type": null
       },
@@ -69,8 +70,8 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
         "integration_type": null
       },
@@ -97,8 +98,8 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
         "integration_type": null
       },
@@ -125,8 +126,8 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
         "integration_type": null
       }
@@ -141,6 +142,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 4
   }
 }

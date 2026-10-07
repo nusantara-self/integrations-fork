@@ -7,11 +7,12 @@
   "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/EmlParser",
   "logo": {
     "file": "integrations/vendors/EmlParser/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/assets/logo.svg",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/EmlParser/assets/logo.svg",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/EmlParser/assets/logo.svg"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -31,8 +32,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/EmlParser/EmlParser.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/EmlParser/EmlParser.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmlParser",
         "integration_type": "local"
       }
@@ -47,6 +48,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

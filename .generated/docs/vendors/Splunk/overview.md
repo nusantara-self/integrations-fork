@@ -94,11 +94,27 @@ Sync TheHive case/alert status back to the corresponding Splunk Enterprise Secur
 
 ---
 
+## Flow nodes
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Search Splunk data, read fired alerts, and update Splunk Enterprise Security findings.
+
+**Example use cases:**
+
+- Run an SPL query to find every host that contacted a suspicious domain
+- Turn fired Splunk alerts into TheHive alerts
+- Update the Enterprise Security notable or finding status when the case is resolved
+
+TheHive Flow is a first-party module that requires a TheHive One license.
+
+---
+
 ## Functions (1)
 
 ### Automate TheHive actions or ingest alerts
 
-#### [createAlertFromSplunk](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js) `v1.0.0`
+#### [createAlertFromSplunk](https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js) `v1.0.0`
 This function creates a TheHive Alert based on an input coming from Splunk, and matches the Splunk fields to TheHive fields. In Splunk, you'll need to configure the webhook URL to point to the TheHive function URL
 
 

@@ -2,11 +2,11 @@
 
 ### Real-world integrations with TheHive
 
-#### [Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md)
+#### [Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script](https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md)
 Install and configure the falcon2thehive connector to automatically ingest CrowdStrike Falcon detections and incidents into TheHive as alerts in real time.
 
 
-#### [Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md)
+#### [Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents](https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md)
 Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.
 
 - **License required:** Platinum
@@ -163,6 +163,22 @@ This action contains the host, which stops any network communications to locatio
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
+
+---
+
+## Flow nodes
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Investigate and respond on CrowdStrike-protected endpoints: alerts, hosts, IOCs, sandbox and vulnerabilities.
+
+**Example use cases:**
+
+- Contain a host automatically when a critical case is opened in TheHive
+- Detonate a suspicious attachment in the Falcon sandbox and attach the report to the case
+- Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide
+
+TheHive Flow is a first-party module that requires a TheHive One license.
 
 ---
 

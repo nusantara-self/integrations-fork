@@ -10,6 +10,7 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: true
+flow: null
 externalIntegrations: []
 displayOnWebsite: false
 visibility: 50
@@ -26,4 +27,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 1
+  totalFlow: 0
   total: 1

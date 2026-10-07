@@ -13,10 +13,11 @@ tags:
 homepage: https://www.rapid7.com/products/insightconnect/
 logo:
   file: integrations/vendors/InsightConnect/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/InsightConnect/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/InsightConnect/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/InsightConnect/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/InsightConnect/assets/logo.png
 useCases: []
 notifier: false
+flow: null
 externalIntegrations:
 - name: TheHive Extension
   description: Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling,
@@ -38,4 +39,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

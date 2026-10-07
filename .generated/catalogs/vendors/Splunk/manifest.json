@@ -13,11 +13,19 @@
   "homepage": "https://www.splunk.com",
   "logo": {
     "file": "integrations/vendors/Splunk/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Splunk/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Splunk/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Splunk/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Splunk/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": {
+    "description": "Search Splunk data, read fired alerts, and update Splunk Enterprise Security findings.",
+    "examples": [
+      "Run an SPL query to find every host that contacted a suspicious domain",
+      "Turn fired Splunk alerts into TheHive alerts",
+      "Update the Enterprise Security notable or finding status when the case is resolved"
+    ]
+  },
   "externalIntegrations": [
     {
       "name": "TheHive/Cortex Technical Add-on",
@@ -60,8 +68,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -75,8 +83,8 @@
           "registry"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -90,8 +98,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -106,8 +114,8 @@
           "uri_path"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -122,8 +130,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -138,8 +146,8 @@
           "filename"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -153,8 +161,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -169,8 +177,8 @@
           "email"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -184,8 +192,8 @@
           "user-agent"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -200,8 +208,8 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -215,8 +223,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       }
@@ -233,8 +241,8 @@
           "thehive:alert"
         ],
         "file": ".upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Splunk",
         "integration_type": "external_api"
       }
@@ -248,8 +256,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js"
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js"
       }
     ]
   },
@@ -260,6 +268,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 2,
     "totalNotifiers": 0,
-    "total": 15
+    "totalFlow": 1,
+    "total": 16
   }
 }

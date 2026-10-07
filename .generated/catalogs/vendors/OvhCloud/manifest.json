@@ -7,11 +7,12 @@
   "homepage": "https://www.ovhcloud.com",
   "logo": {
     "file": "integrations/vendors/OvhCloud/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OvhCloud/assets/logo.svg",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/OvhCloud/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/OvhCloud/assets/logo.svg",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/OvhCloud/assets/logo.svg"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -31,8 +32,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OvhCloud",
         "integration_type": null
       }
@@ -48,8 +49,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
         "integration_type": null
       },
@@ -63,8 +64,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
         "integration_type": null
       }
@@ -78,6 +79,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 3
   }
 }

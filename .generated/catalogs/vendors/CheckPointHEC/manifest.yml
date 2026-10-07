@@ -10,10 +10,11 @@ tags: []
 homepage: https://www.checkpoint.com/harmony/email-security/
 logo:
   file: integrations/vendors/CheckPointHEC/assets/logo.svg
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CheckPointHEC/assets/logo.svg
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CheckPointHEC/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/CheckPointHEC/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/CheckPointHEC/assets/logo.svg
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -33,8 +34,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
   - name: CheckPointHEC SearchByDomain
@@ -47,8 +48,8 @@ integrations:
     - domain
     - file
     file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
   - name: CheckPointHEC SearchBySenderIP
@@ -61,8 +62,8 @@ integrations:
     - ip
     - file
     file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
   - name: CheckPointHEC SearchEmail
@@ -75,8 +76,8 @@ integrations:
     - file
     - other
     file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
   - name: CheckPointHEC SearchBySender
@@ -89,8 +90,8 @@ integrations:
     - mail
     - file
     file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
   responders:
@@ -103,8 +104,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
     integration_type: null
   - name: CheckPointHEC Quarantine
@@ -116,8 +117,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
     integration_type: null
   - name: CheckPointHEC QuarantineByMessageId
@@ -128,8 +129,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
     integration_type: null
   functions: []
@@ -140,4 +141,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 8

@@ -13,6 +13,7 @@ homepage: https://www.paloaltonetworks.com/cortex/cortex-xsoar
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations:
 - name: TheHive Project Integration
   description: Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable
@@ -34,4 +35,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

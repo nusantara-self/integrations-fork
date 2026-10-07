@@ -18,10 +18,11 @@ tags:
 homepage: https://threatlabs.google.com
 logo:
   file: integrations/vendors/GoogleThreatIntelligence/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 7
@@ -46,8 +47,8 @@ integrations:
     - ip
     - url
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence
     integration_type: null
   - name: GTI ScanPrivateURL
@@ -59,8 +60,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence
     integration_type: null
   - name: GTI ScanPrivateFile
@@ -72,8 +73,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence
     integration_type: null
   - name: GTI ScanURL
@@ -85,8 +86,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence
     integration_type: null
   - name: GTI ScanFile
@@ -98,8 +99,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence
     integration_type: null
   responders: []
@@ -111,4 +112,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 5

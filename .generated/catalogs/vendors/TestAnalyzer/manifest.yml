@@ -10,6 +10,7 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: false
 visibility: low
@@ -38,8 +39,8 @@ integrations:
     - user-agent
     - mail-subject
     file: .upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer
     integration_type: local
   - name: DevTools Echo Analyzer
@@ -60,8 +61,8 @@ integrations:
     - user-agent
     - mail-subject
     file: .upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer
     integration_type: local
   responders: []
@@ -73,4 +74,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

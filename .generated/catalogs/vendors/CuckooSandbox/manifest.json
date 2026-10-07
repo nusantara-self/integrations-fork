@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -28,8 +29,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox",
         "integration_type": null
       },
@@ -43,8 +44,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox",
         "integration_type": null
       }
@@ -59,6 +60,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 2
   }
 }

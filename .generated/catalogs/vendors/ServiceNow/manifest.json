@@ -1,0 +1,44 @@
+{
+  "id": "ServiceNow",
+  "name": "ServiceNow",
+  "description": "ServiceNow is an enterprise IT service management platform that handles incidents, change requests and configuration items, letting security teams hand off remediation work to IT and keep tickets and cases in sync",
+  "category": "Collaboration",
+  "tags": [
+    "ticketing",
+    "automation",
+    "incident-response",
+    "api"
+  ],
+  "homepage": "https://www.servicenow.com",
+  "logo": {},
+  "useCases": [],
+  "notifier": false,
+  "flow": {
+    "description": "Connect SOC workflows with ServiceNow incidents, change requests, CMDB and any custom table.",
+    "examples": [
+      "Open a ServiceNow incident for the IT team when a remediation is needed",
+      "Enrich a host observable with its CMDB owner and criticality",
+      "Raise a change request before a firewall block or a mass password reset"
+    ]
+  },
+  "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": 100,
+  "analyzersTagline": "",
+  "analyzerDisplayName": "",
+  "integrations": {
+    "analyzers": [],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
+    "totalFlow": 1,
+    "total": 1
+  }
+}

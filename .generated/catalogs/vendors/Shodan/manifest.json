@@ -14,11 +14,12 @@
   "homepage": "https://www.shodan.io",
   "logo": {
     "file": "integrations/vendors/Shodan/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Shodan/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Shodan/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Shodan/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Shodan/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 11,
@@ -39,8 +40,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_Host_History.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan",
         "integration_type": null
       },
@@ -55,8 +56,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan",
         "integration_type": null
       },
@@ -71,8 +72,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan",
         "integration_type": null
       },
@@ -86,8 +87,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan",
         "integration_type": null
       },
@@ -101,8 +102,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_Host.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_Host.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_Host.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan",
         "integration_type": null
       },
@@ -116,8 +117,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/Shodan/Shodan_Search.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_Search.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Shodan/Shodan_Search.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan",
         "integration_type": null
       }
@@ -132,6 +133,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 6
   }
 }

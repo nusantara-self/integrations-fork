@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -25,8 +26,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -42,8 +43,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -58,8 +59,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -76,8 +77,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -92,8 +93,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -107,8 +108,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -122,8 +123,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -138,8 +139,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -154,8 +155,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -172,8 +173,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       }
@@ -188,6 +189,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 10
   }
 }

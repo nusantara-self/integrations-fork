@@ -2,14 +2,25 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: JIRA
-name: JIRA
-description: ''
-category: ''
-tags: []
-homepage: ''
+name: Jira Cloud
+description: Jira Cloud is Atlassian's issue tracking and project management platform, used by security teams to open and
+  follow remediation tickets with the teams that own the affected systems
+category: Collaboration
+tags:
+- ticketing
+- collaboration
+- incident-response
+- api
+homepage: https://www.atlassian.com/software/jira
 logo: {}
 useCases: []
 notifier: false
+flow:
+  description: Create and follow Jira issues from SOC workflows, with full Jira Cloud REST v3 coverage.
+  examples:
+  - Open a Jira ticket for the owning team when a case needs a fix such as a patch or config change
+  - Link the Jira issue back to the TheHive case and comment progress
+  - Close the case automatically when the Jira issue is resolved
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -27,8 +38,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
 stats:
   totalAnalyzers: 0
   totalResponders: 0
@@ -36,4 +47,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
-  total: 1
+  totalFlow: 1
+  total: 2

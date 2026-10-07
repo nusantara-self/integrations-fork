@@ -10,10 +10,11 @@ tags: []
 homepage: https://bestpractical.com/request-tracker
 logo:
   file: integrations/vendors/RT4/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RT4/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RT4/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/RT4/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/RT4/assets/logo.png
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -32,8 +33,8 @@ integrations:
     - thehive:alert
     - thehive:case
     file: .upstream/cortex/responders/RT4/rt4.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/RT4/rt4.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/RT4/rt4.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/RT4/rt4.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/RT4/rt4.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/RT4
     integration_type: null
   functions: []
@@ -44,4 +45,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

@@ -10,6 +10,7 @@ homepage: https://www.zscaler.com
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -32,8 +33,8 @@ integrations:
     - url
     - fqdn
     file: .upstream/cortex/analyzers/Zscaler/Zscaler.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Zscaler/Zscaler.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Zscaler/Zscaler.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler
     integration_type: null
   - name: ZscalerZIA URLLookup
@@ -48,8 +49,8 @@ integrations:
     - url
     - ip
     file: .upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler
     integration_type: null
   responders:
@@ -62,8 +63,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA AddToATPDenylistWildcard
@@ -75,8 +76,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylistWildcard.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylistWildcard.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylistWildcard.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylistWildcard.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylistWildcard.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA AddToURLCategory
@@ -87,8 +88,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA AddToURLCategoryWildcard
@@ -99,8 +100,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA AddToCloudFirewallRule
@@ -112,8 +113,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA AddToATPDenylist
@@ -125,8 +126,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylist.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylist.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylist.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylist.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylist.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA RemoveFromURLCategoryWildcard
@@ -137,8 +138,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA RemoveFromATPDenylist
@@ -150,8 +151,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA RemoveFromATPDenylistWildcard
@@ -163,8 +164,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA RemoveFromCloudFirewallRule
@@ -176,8 +177,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromCloudFirewallRule.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromCloudFirewallRule.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromCloudFirewallRule.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromCloudFirewallRule.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromCloudFirewallRule.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA RemoveFromURLCategory
@@ -188,8 +189,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategory.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategory.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategory.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategory.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategory.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA AddToATPSecurityExceptions
@@ -201,8 +202,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPSecurityExceptions.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPSecurityExceptions.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPSecurityExceptions.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPSecurityExceptions.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPSecurityExceptions.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   functions: []
@@ -213,4 +214,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 14

@@ -13,11 +13,19 @@
   "homepage": "https://www.elastic.co",
   "logo": {
     "file": "integrations/vendors/Elasticsearch/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Elasticsearch/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Elasticsearch/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Elasticsearch/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Elasticsearch/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": {
+    "description": "Query Elasticsearch data and read Elastic Security detection alerts.",
+    "examples": [
+      "Pull Elastic detection alerts and create TheHive alerts",
+      "Run an ES|QL query to scope an incident across users, hosts and time range",
+      "Write enrichment results or case summaries into a dedicated index"
+    ]
+  },
   "externalIntegrations": [
     {
       "name": "TheHive Connector for Kibana",
@@ -61,8 +69,8 @@
           "username"
         ],
         "file": ".upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch",
         "integration_type": null
       }
@@ -79,8 +87,8 @@
           "thehive:alert"
         ],
         "file": ".upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Elasticsearch",
         "integration_type": "external_api"
       }
@@ -94,6 +102,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
-    "total": 3
+    "totalFlow": 1,
+    "total": 4
   }
 }

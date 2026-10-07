@@ -137,8 +137,8 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js
   vendor: Airtable
   vendor_id: Airtable
 - name: createAlertFromJAMFProtect
@@ -153,8 +153,8 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
   vendor: JAMFProtect
   vendor_id: JAMFProtect
 - name: alertFromJIRA
@@ -165,9 +165,9 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-  vendor: JIRA
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+  vendor: Jira Cloud
   vendor_id: JIRA
 - name: alertfeeder_ingestSentinelIncidents
   version: 1.0.0
@@ -177,8 +177,8 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
   vendor: Microsoft Sentinel
   vendor_id: MSSentinel
 - name: alertFeeder_ProofPoint_messageDelivered
@@ -188,8 +188,8 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
   vendor: Proofpoint
   vendor_id: Proofpoint
 - name: alertFeeder_ProofPoint_clicksPermitted
@@ -199,8 +199,8 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
   vendor: Proofpoint
   vendor_id: Proofpoint
 - name: createAlertFromSplunk
@@ -211,7 +211,7 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
   vendor: Splunk
   vendor_id: Splunk

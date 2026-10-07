@@ -13,11 +13,12 @@
   "homepage": "https://shuffler.io",
   "logo": {
     "file": "integrations/vendors/Shuffle/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Shuffle/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Shuffle/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/integrations/vendors/Shuffle/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/integrations/vendors/Shuffle/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [
     {
       "name": "TheHive 5 Integration",
@@ -47,8 +48,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Shuffle/shuffle.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Shuffle/shuffle.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Shuffle/shuffle.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/flow-nodes/.upstream/cortex/responders/Shuffle/shuffle.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/flow-nodes/.upstream/cortex/responders/Shuffle/shuffle.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Shuffle",
         "integration_type": null
       }
@@ -62,6 +63,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 2
   }
 }

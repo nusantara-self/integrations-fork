@@ -11,6 +11,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [
     {
       "name": "TheHive Project Integration",
@@ -35,6 +36,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }
