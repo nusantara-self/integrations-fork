@@ -10,11 +10,13 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: true
+flow: null
 externalIntegrations: []
 displayOnWebsite: false
 visibility: 50
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Email/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -26,4 +28,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 1
+  totalFlow: 0
   total: 1

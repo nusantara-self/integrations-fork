@@ -10,6 +10,7 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
@@ -18,8 +19,21 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/DomainToolsIris/overview.md
 integrations:
   analyzers:
+  - name: DomainToolsIris Investigate
+    version: '1.0'
+    author: DomainTools
+    license: AGPL-V3
+    description: Use DomainTools Iris API to investigate a domain.
+    dataTypes:
+    - domain
+    file: .upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris
+    integration_type: null
   - name: DomainToolsIris Pivot
     version: '1.0'
     author: DomainTools
@@ -30,20 +44,8 @@ integrations:
     - ip
     - mail
     file: .upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris
-    integration_type: null
-  - name: DomainToolsIris Investigate
-    version: '1.0'
-    author: DomainTools
-    license: AGPL-V3
-    description: Use DomainTools Iris API to investigate a domain.
-    dataTypes:
-    - domain
-    file: .upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris
     integration_type: null
   responders:
@@ -55,8 +57,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris
     integration_type: null
   - name: DomainToolsIris AddRiskyDNSTag
@@ -67,8 +69,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris
     integration_type: null
   functions: []
@@ -79,4 +81,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 4

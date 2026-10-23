@@ -9,15 +9,17 @@ tags: []
 homepage: ''
 logo:
   file: integrations/vendors/CiscoAMPforEndpoints/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/CiscoAMPforEndpoints/overview.md
 integrations:
   analyzers: []
   responders:
@@ -29,32 +31,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
-    integration_type: null
-  - name: AMPforEndpoints MoveGUID
-    version: '1.0'
-    author: Cisco Security
-    license: MIT
-    description: Move an AMP for Endpoints connector GUID to a different Group
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
-    integration_type: null
-  - name: AMPforEndpoints IsolationStop
-    version: '1.0'
-    author: Cisco Security
-    license: MIT
-    description: Stop host isolation for an AMP for Endpoints connector
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
     integration_type: null
   - name: AMPforEndpoints SCDAdd
@@ -65,8 +43,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
     integration_type: null
   - name: AMPforEndpoints SCDRemove
@@ -77,8 +55,32 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
+    integration_type: null
+  - name: AMPforEndpoints MoveGUID
+    version: '1.0'
+    author: Cisco Security
+    license: MIT
+    description: Move an AMP for Endpoints connector GUID to a different Group
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
+    integration_type: null
+  - name: AMPforEndpoints IsolationStop
+    version: '1.0'
+    author: Cisco Security
+    license: MIT
+    description: Stop host isolation for an AMP for Endpoints connector
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
     integration_type: null
   functions: []
@@ -89,4 +91,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 5

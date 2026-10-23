@@ -10,15 +10,17 @@ tags: []
 homepage: https://www.microsoft.com/en-us/microsoft-teams
 logo:
   file: integrations/vendors/MSTeams/assets/logo.svg
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSTeams/assets/logo.svg
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSTeams/assets/logo.svg
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MSTeams/assets/logo.svg
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/MSTeams/assets/logo.svg
 useCases: []
 notifier: true
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 50
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/MSTeams/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -30,4 +32,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 1
+  totalFlow: 0
   total: 1

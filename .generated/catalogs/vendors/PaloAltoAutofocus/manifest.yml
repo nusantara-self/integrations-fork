@@ -11,13 +11,27 @@ homepage: https://www.paloaltonetworks.com/network-security/autofocus
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoAutofocus/overview.md
 integrations:
   analyzers:
+  - name: Autofocus GetSampleAnalysis
+    version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
+    description: Get full analysis from a sample based on its hash
+    dataTypes:
+    - hash
+    file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
+    integration_type: null
   - name: Autofocus SearchJSON
     version: '1.0'
     author: ANSSI
@@ -26,8 +40,8 @@ integrations:
     dataTypes:
     - other
     file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
     integration_type: null
   - name: Autofocus SearchIOC
@@ -45,20 +59,8 @@ integrations:
     - tag
     - url
     file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
-    integration_type: null
-  - name: Autofocus GetSampleAnalysis
-    version: '1.0'
-    author: ANSSI
-    license: AGPL-V3
-    description: Get full analysis from a sample based on its hash
-    dataTypes:
-    - hash
-    file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
     integration_type: null
   responders: []
@@ -70,4 +72,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 3

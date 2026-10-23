@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -16,6 +17,7 @@
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": true,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/XposedOrNot/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -28,8 +30,8 @@
           "mail"
         ],
         "file": ".upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot",
         "integration_type": null
       },
@@ -43,8 +45,8 @@
           "mail"
         ],
         "file": ".upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot",
         "integration_type": null
       }
@@ -59,6 +61,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 2
   }
 }

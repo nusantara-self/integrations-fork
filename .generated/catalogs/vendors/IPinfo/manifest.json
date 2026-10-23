@@ -13,33 +13,20 @@
   "homepage": "https://ipinfo.io",
   "logo": {
     "file": "integrations/vendors/IPinfo/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/IPinfo/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/IPinfo/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/IPinfo/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/IPinfo/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": "low",
   "analyzersTagline": "",
   "analyzerDisplayName": "",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/IPinfo/overview.md",
   "integrations": {
     "analyzers": [
-      {
-        "name": "IPinfo Hosted Domains",
-        "version": "1.0",
-        "author": "Manabu Niseki",
-        "license": "MIT",
-        "description": "IPinfo hosted domains lookup.",
-        "dataTypes": [
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo",
-        "integration_type": null
-      },
       {
         "name": "IPinfo Details",
         "version": "1.0",
@@ -50,8 +37,23 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/IPinfo/IPinfo_Details.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo",
+        "integration_type": null
+      },
+      {
+        "name": "IPinfo Hosted Domains",
+        "version": "1.0",
+        "author": "Manabu Niseki",
+        "license": "MIT",
+        "description": "IPinfo hosted domains lookup.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo",
         "integration_type": null
       }
@@ -66,6 +68,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 2
   }
 }

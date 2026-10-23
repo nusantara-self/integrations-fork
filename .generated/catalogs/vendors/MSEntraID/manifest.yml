@@ -18,10 +18,16 @@ tags:
 homepage: https://www.microsoft.com/security/business/identity-access/microsoft-entra-id
 logo:
   file: integrations/vendors/MSEntraID/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSEntraID/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSEntraID/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MSEntraID/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/MSEntraID/assets/logo.png
 useCases: []
 notifier: false
+flow:
+  description: Investigate and contain compromised identities in Microsoft Entra ID.
+  examples:
+  - On a phishing case, disable the user, revoke sessions and force a password reset
+  - Enrich a user observable with roles, groups and MFA status to assess impact
+  - Review recent sign-ins and risk detections for a suspected account takeover
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 5
@@ -30,6 +36,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/MSEntraID/overview.md
 integrations:
   analyzers:
   - name: MSEntraID GetSignInsByIP
@@ -41,8 +48,46 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignInsByIP.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignInsByIP.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignInsByIP.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignInsByIP.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignInsByIP.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
+    integration_type: null
+  - name: MSEntraID GetDirectoryRoles
+    version: '1.0'
+    author: 3lina, StrangeBee
+    license: AGPL-V3
+    description: List the Microsoft Entra ID directory roles (built-in admin roles) directly assigned to a user, to help prioritize
+      investigations involving privileged accounts.
+    dataTypes:
+    - mail
+    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
+    integration_type: null
+  - name: MSEntraID GetSignIns
+    version: '1.0'
+    author: '@jahamilto'
+    license: AGPL-V3
+    description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
+    dataTypes:
+    - mail
+    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
+    integration_type: null
+  - name: MSEntraID GetRiskyUser
+    version: '1.0'
+    author: StrangeBee
+    license: AGPL-V3
+    description: 'Retrieve Microsoft Entra ID Identity Protection risk information for a user: current risk state (riskyUsers)
+      and risk detection history (riskDetections). Requires Entra ID P1/P2.'
+    dataTypes:
+    - mail
+    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   - name: MSEntraID GetUserInfo
@@ -56,21 +101,8 @@ integrations:
     - user
     - username
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
-    integration_type: null
-  - name: MSEntraID GetDirectoryRoles
-    version: '1.0'
-    author: 3lina, StrangeBee
-    license: AGPL-V3
-    description: List the Microsoft Entra ID directory roles (built-in admin roles) directly assigned to a user, to help prioritize
-      investigations involving privileged accounts.
-    dataTypes:
-    - mail
-    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   - name: MSEntraID GetManagedDevicesInfo
@@ -82,8 +114,8 @@ integrations:
     - mail
     - hostname
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   - name: MSEntraID GetDirectoryAuditLogs
@@ -94,33 +126,8 @@ integrations:
     dataTypes:
     - mail
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
-    integration_type: null
-  - name: MSEntraID GetSignIns
-    version: '1.0'
-    author: '@jahamilto'
-    license: AGPL-V3
-    description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
-    dataTypes:
-    - mail
-    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
-    integration_type: null
-  - name: MSEntraID GetRiskyUser
-    version: '1.0'
-    author: StrangeBee
-    license: AGPL-V3
-    description: 'Retrieve Microsoft Entra ID Identity Protection risk information for a user: current risk state (riskyUsers)
-      and risk detection history (riskDetections). Requires Entra ID P1/P2.'
-    dataTypes:
-    - mail
-    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   responders:
@@ -133,8 +140,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   - name: MSEntraID enableUser
@@ -145,32 +152,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
-    integration_type: null
-  - name: MSEntraID ForcePasswordReset
-    version: '1.0'
-    author: nusatanra-self, StrangeBee
-    license: AGPL-V3
-    description: Force password reset at next login for a User Principal Name. (mail)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
-    integration_type: null
-  - name: MSEntraID disableUser
-    version: '1.0'
-    author: nusatanra-self, StrangeBee
-    license: AGPL-V3
-    description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   - name: MSEntraID revokeSignInSessions
@@ -182,8 +165,32 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
+    integration_type: null
+  - name: MSEntraID disableUser
+    version: '1.0'
+    author: nusatanra-self, StrangeBee
+    license: AGPL-V3
+    description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
+    integration_type: null
+  - name: MSEntraID ForcePasswordReset
+    version: '1.0'
+    author: nusatanra-self, StrangeBee
+    license: AGPL-V3
+    description: Force password reset at next login for a User Principal Name. (mail)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   functions: []
@@ -194,4 +201,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
-  total: 12
+  totalFlow: 1
+  total: 13

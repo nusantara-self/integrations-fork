@@ -12,6 +12,7 @@ homepage: https://www.tines.com
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations:
 - name: TheHive Project Connector
   description: Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation,
@@ -22,6 +23,7 @@ displayOnWebsite: true
 visibility: low
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Tines/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -33,4 +35,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

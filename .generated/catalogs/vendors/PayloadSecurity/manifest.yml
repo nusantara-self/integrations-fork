@@ -10,11 +10,13 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: false
 visibility: low
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/PayloadSecurity/overview.md
 integrations:
   analyzers:
   - name: PayloadSecurity Url Analysis
@@ -25,8 +27,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PayloadSecurity
     integration_type: null
   - name: PayloadSecurity File Analysis
@@ -37,8 +39,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PayloadSecurity
     integration_type: null
   responders: []
@@ -50,4 +52,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

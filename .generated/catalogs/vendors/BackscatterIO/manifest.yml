@@ -10,11 +10,13 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/BackscatterIO/overview.md
 integrations:
   analyzers:
   - name: BackscatterIO GetObservations
@@ -27,8 +29,8 @@ integrations:
     - network
     - autonomous-system
     file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/BackscatterIO
     integration_type: null
   - name: BackscatterIO Enrichment
@@ -42,8 +44,8 @@ integrations:
     - autonomous-system
     - port
     file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/BackscatterIO
     integration_type: null
   responders: []
@@ -55,4 +57,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

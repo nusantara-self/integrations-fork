@@ -8,26 +8,28 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/DNSDB/overview.md",
   "integrations": {
     "analyzers": [
       {
-        "name": "DNSDB DomainName",
+        "name": "DNSDB NameHistory",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DNSDB to fetch historical records for a domain.",
+        "description": "Use DNSDB to fetch historical records for a fully-qualified domain name.",
         "dataTypes": [
           "domain",
           "fqdn"
         ],
-        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       },
@@ -41,24 +43,24 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       },
       {
-        "name": "DNSDB NameHistory",
+        "name": "DNSDB DomainName",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DNSDB to fetch historical records for a fully-qualified domain name.",
+        "description": "Use DNSDB to fetch historical records for a domain.",
         "dataTypes": [
           "domain",
           "fqdn"
         ],
-        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       }
@@ -73,6 +75,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 3
   }
 }

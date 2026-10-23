@@ -14,11 +14,19 @@
   "homepage": "https://www.virustotal.com",
   "logo": {
     "file": "integrations/vendors/VirusTotal/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/VirusTotal/assets/logo.svg",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/VirusTotal/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/VirusTotal/assets/logo.svg",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/VirusTotal/assets/logo.svg"
   },
   "useCases": [],
   "notifier": false,
+  "flow": {
+    "description": "Get VirusTotal reputation reports and submit files and URLs for scanning.",
+    "examples": [
+      "Check the reputation of a hash, URL, domain or IP found in an alert",
+      "Submit an unknown attachment for scanning and wait for the analysis result",
+      "Auto-tag observables as malicious above a detection threshold"
+    ]
+  },
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 3,
@@ -29,23 +37,9 @@
     true,
     false
   ],
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/VirusTotal/overview.md",
   "integrations": {
     "analyzers": [
-      {
-        "name": "VirusTotal DownloadSample",
-        "version": "3.1",
-        "author": "LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Use VirusTotal to download the original file for an hash.",
-        "dataTypes": [
-          "hash"
-        ],
-        "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal",
-        "integration_type": null
-      },
       {
         "name": "VirusTotal GetReport",
         "version": "3.1",
@@ -61,8 +55,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal",
         "integration_type": null
       },
@@ -76,8 +70,23 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal",
+        "integration_type": null
+      },
+      {
+        "name": "VirusTotal DownloadSample",
+        "version": "3.1",
+        "author": "LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Use VirusTotal to download the original file for an hash.",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal",
         "integration_type": null
       },
@@ -92,8 +101,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal",
         "integration_type": null
       }
@@ -108,6 +117,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
-    "total": 4
+    "totalFlow": 1,
+    "total": 5
   }
 }

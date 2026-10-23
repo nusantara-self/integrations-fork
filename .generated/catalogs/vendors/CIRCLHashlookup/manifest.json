@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": "low",
@@ -16,6 +17,7 @@
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": true,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/CIRCLHashlookup/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -28,8 +30,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CIRCLHashlookup",
         "integration_type": null
       }
@@ -44,6 +46,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

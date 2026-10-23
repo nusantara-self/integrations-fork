@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -16,6 +17,7 @@
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/JAMFProtect/overview.md",
   "integrations": {
     "analyzers": [],
     "responders": [
@@ -29,8 +31,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect",
         "integration_type": null
       },
@@ -44,8 +46,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect",
         "integration_type": null
       }
@@ -59,8 +61,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js"
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js"
       }
     ]
   },
@@ -71,6 +73,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 3
   }
 }

@@ -10,14 +10,30 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoNGFW/overview.md
 integrations:
   analyzers: []
   responders:
+  - name: PaloAltoNGFW block port for external communication
+    version: 2.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Block external port communication
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
   - name: PaloAltoNGFW block internal IP address
     version: 2.0.0
     author: Maxim Konakin, OSCD Initiative
@@ -28,64 +44,8 @@ integrations:
     - thehive:case_artifact
     - thehive:case
     file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW unblock external IP address
-    version: 1.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Unblock external ip
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW unblock internal domain
-    version: 1.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Unblock internal domain
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW unblock internal user
-    version: 1.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Unblock internal user
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW block internal domain
-    version: 2.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Block internal domain
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
     integration_type: null
   - name: PaloAltoNGFW unblock external user
@@ -98,92 +58,8 @@ integrations:
     - thehive:case_artifact
     - thehive:case
     file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW block external IP address
-    version: 2.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Block external IP address
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW block external domain
-    version: 2.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Block external domain
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW unblock internal IP address
-    version: 1.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Unblock internal ip
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW unblock port for internal communication
-    version: 1.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Unblock internal port communication
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW unblock port for external communication
-    version: 1.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Unblock external port communication
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
-    integration_type: null
-  - name: PaloAltoNGFW block port for internal communication
-    version: 2.0.0
-    author: Maxim Konakin, OSCD Initiative
-    license: AGPL-V3
-    description: Block internal port communication
-    dataTypes:
-    - thehive:alert
-    - thehive:case_artifact
-    - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
     integration_type: null
   - name: PaloAltoNGFW block external user
@@ -196,22 +72,36 @@ integrations:
     - thehive:case_artifact
     - thehive:case
     file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
     integration_type: null
-  - name: PaloAltoNGFW unblock external domain
+  - name: PaloAltoNGFW unblock external IP address
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
-    description: Unblock external domain
+    description: Unblock external ip
     dataTypes:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW block internal domain
+    version: 2.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Block internal domain
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
     integration_type: null
   - name: PaloAltoNGFW block internal user
@@ -224,22 +114,134 @@ integrations:
     - thehive:case_artifact
     - thehive:case
     file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
     integration_type: null
-  - name: PaloAltoNGFW block port for external communication
-    version: 2.0.0
+  - name: PaloAltoNGFW unblock port for internal communication
+    version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
-    description: Block external port communication
+    description: Unblock internal port communication
     dataTypes:
     - thehive:alert
     - thehive:case_artifact
     - thehive:case
-    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW unblock internal domain
+    version: 1.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Unblock internal domain
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW unblock internal IP address
+    version: 1.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Unblock internal ip
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW block port for internal communication
+    version: 2.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Block internal port communication
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW block external IP address
+    version: 2.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Block external IP address
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW unblock port for external communication
+    version: 1.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Unblock external port communication
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW unblock external domain
+    version: 1.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Unblock external domain
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW block external domain
+    version: 2.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Block external domain
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
+    integration_type: null
+  - name: PaloAltoNGFW unblock internal user
+    version: 1.0.0
+    author: Maxim Konakin, OSCD Initiative
+    license: AGPL-V3
+    description: Unblock internal user
+    dataTypes:
+    - thehive:alert
+    - thehive:case_artifact
+    - thehive:case
+    file: .upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW
     integration_type: null
   functions: []
@@ -250,4 +252,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 16

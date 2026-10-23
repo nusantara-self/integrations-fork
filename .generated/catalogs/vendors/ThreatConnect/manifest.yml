@@ -13,6 +13,7 @@ homepage: https://threatconnect.com
 logo: {}
 useCases: []
 notifier: false
+flow: null
 externalIntegrations:
 - name: TheHive Integration (via Polarity)
   description: Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create
@@ -24,6 +25,7 @@ displayOnWebsite: true
 visibility: low
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/ThreatConnect/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -35,4 +37,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

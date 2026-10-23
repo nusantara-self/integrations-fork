@@ -10,10 +10,11 @@ tags: []
 homepage: https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/DomainMailSPFDMARC
 logo:
   file: integrations/vendors/DomainMailSPFDMARC/assets/logo.svg
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/DomainMailSPFDMARC/assets/logo.svg
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/DomainMailSPFDMARC/assets/logo.svg
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/DomainMailSPFDMARC/assets/logo.svg
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/DomainMailSPFDMARC/assets/logo.svg
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -22,6 +23,7 @@ analyzerDisplayName: ''
 registration_required: false
 subscription_required: false
 free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/DomainMailSPFDMARC/overview.md
 integrations:
   analyzers:
   - name: DomainMailSPFDMARC
@@ -35,8 +37,8 @@ integrations:
     - fqdn
     - file
     file: .upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainMailSPFDMARC
     integration_type: local
   responders: []
@@ -48,4 +50,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

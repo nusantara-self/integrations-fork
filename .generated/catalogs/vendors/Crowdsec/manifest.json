@@ -13,11 +13,12 @@
   "homepage": "https://www.crowdsec.net",
   "logo": {
     "file": "integrations/vendors/Crowdsec/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Crowdsec/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Crowdsec/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Crowdsec/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Crowdsec/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": "low",
@@ -26,6 +27,7 @@
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": true,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Crowdsec/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -38,8 +40,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Crowdsec/Crowdsec_analyzer.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Crowdsec",
         "integration_type": null
       }
@@ -54,6 +56,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

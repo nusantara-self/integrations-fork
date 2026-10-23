@@ -10,10 +10,11 @@ tags: []
 homepage: https://www.sekoia.io
 logo:
   file: integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
@@ -22,6 +23,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/SEKOIAIntelligenceCenter/overview.md
 integrations:
   analyzers:
   - name: SEKOIAIntelligenceCenter Context
@@ -36,24 +38,8 @@ integrations:
     - hash
     - ip
     file: .upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter
-    integration_type: null
-  - name: SEKOIAIntelligenceCenter Observables
-    version: '1.0'
-    author: SEKOIA
-    license: AGPL-V3
-    description: Query the Intelligence Center to retrieve known observables
-    dataTypes:
-    - domain
-    - fqdn
-    - url
-    - hash
-    - ip
-    file: .upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter
     integration_type: null
   - name: SEKOIAIntelligenceCenter Indicators
@@ -68,8 +54,24 @@ integrations:
     - hash
     - ip
     file: .upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter
+    integration_type: null
+  - name: SEKOIAIntelligenceCenter Observables
+    version: '1.0'
+    author: SEKOIA
+    license: AGPL-V3
+    description: Query the Intelligence Center to retrieve known observables
+    dataTypes:
+    - domain
+    - fqdn
+    - url
+    - hash
+    - ip
+    file: .upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter
     integration_type: null
   responders: []
@@ -81,4 +83,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 3

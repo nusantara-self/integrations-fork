@@ -8,6 +8,7 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -16,8 +17,24 @@
   "registration_required": true,
   "subscription_required": false,
   "free_subscription": true,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/urlDNA.io/overview.md",
   "integrations": {
     "analyzers": [
+      {
+        "name": "UrlDNA New Scan",
+        "version": "0.1.0",
+        "author": "urlDNA.io (@urldna); Fabien Bloume, StrangeBee",
+        "license": "MIT",
+        "description": "Perform a new scan on urlDNA.io",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/urlDNA.io",
+        "integration_type": null
+      },
       {
         "name": "UrlDNA Search",
         "version": "0.1.0",
@@ -30,23 +47,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/urlDNA.io",
-        "integration_type": null
-      },
-      {
-        "name": "UrlDNA New Scan",
-        "version": "0.1.0",
-        "author": "urlDNA.io (@urldna); Fabien Bloume, StrangeBee",
-        "license": "MIT",
-        "description": "Perform a new scan on urlDNA.io",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_Search.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/urlDNA.io",
         "integration_type": null
       }
@@ -61,6 +63,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 2
   }
 }

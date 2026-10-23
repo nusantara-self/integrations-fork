@@ -10,15 +10,17 @@ tags: []
 homepage: https://kafka.apache.org
 logo:
   file: integrations/vendors/Kafka/assets/logo.svg
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Kafka/assets/logo.svg
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Kafka/assets/logo.svg
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Kafka/assets/logo.svg
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Kafka/assets/logo.svg
 useCases: []
 notifier: true
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 50
 analyzersTagline: ''
 analyzerDisplayName: ''
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Kafka/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -30,4 +32,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 1
+  totalFlow: 0
   total: 1

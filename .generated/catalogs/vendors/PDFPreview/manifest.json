@@ -7,11 +7,12 @@
   "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/PDFPreview",
   "logo": {
     "file": "integrations/vendors/PDFPreview/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/PDFPreview/assets/logo.svg",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/PDFPreview/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/PDFPreview/assets/logo.svg",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/PDFPreview/assets/logo.svg"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -19,6 +20,7 @@
   "analyzerDisplayName": "",
   "registration_required": false,
   "subscription_required": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/PDFPreview/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -31,8 +33,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/PDFPreview/PDFPreview.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PDFPreview/PDFPreview.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PDFPreview/PDFPreview.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PDFPreview/PDFPreview.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PDFPreview/PDFPreview.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PDFPreview",
         "integration_type": "local"
       }
@@ -47,6 +49,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

@@ -14,11 +14,12 @@
   "homepage": "https://www.threatq.com",
   "logo": {
     "file": "integrations/vendors/ThreatQ/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ThreatQ/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/ThreatQ/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/ThreatQ/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/ThreatQ/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [
     {
       "name": "The Hive App for ThreatQ",
@@ -31,6 +32,7 @@
   "visibility": "low",
   "analyzersTagline": "",
   "analyzerDisplayName": "",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/ThreatQ/overview.md",
   "integrations": {
     "analyzers": [],
     "responders": [],
@@ -43,6 +45,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

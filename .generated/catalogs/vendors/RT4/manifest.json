@@ -7,16 +7,18 @@
   "homepage": "https://bestpractical.com/request-tracker",
   "logo": {
     "file": "integrations/vendors/RT4/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RT4/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RT4/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/RT4/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/RT4/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
+  "flow": null,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/RT4/overview.md",
   "integrations": {
     "analyzers": [],
     "responders": [
@@ -32,8 +34,8 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/RT4/rt4.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/RT4/rt4.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/RT4/rt4.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/RT4/rt4.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/RT4/rt4.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/RT4",
         "integration_type": null
       }
@@ -47,6 +49,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

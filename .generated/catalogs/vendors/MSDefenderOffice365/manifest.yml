@@ -16,10 +16,11 @@ tags:
 homepage: https://www.microsoft.com/security/business/threat-protection/office-365-defender
 logo:
   file: integrations/vendors/MSDefenderOffice365/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSDefenderOffice365/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSDefenderOffice365/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MSDefenderOffice365/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/MSDefenderOffice365/assets/logo.png
 useCases: []
 notifier: false
+flow: null
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 9
@@ -34,6 +35,7 @@ subscription_required:
 free_subscription:
 - true
 - false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/MSDefenderOffice365/overview.md
 integrations:
   analyzers:
   - name: MSDefenderOffice365 SafeLinksDecoder
@@ -45,8 +47,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderOffice365
     integration_type: null
   responders:
@@ -58,20 +60,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
-    integration_type: null
-  - name: MSDefenderOffice365 disallow
-    version: '1.0'
-    author: Vito Piserchia
-    license: AGPL-V3
-    description: Remove allow entries from the Tenant Allow/Block List in the Microsoft 365 Defender
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
     integration_type: null
   - name: MSDefenderOffice365 allow
@@ -82,8 +72,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
     integration_type: null
   - name: MSDefenderOffice365 block
@@ -94,8 +84,20 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
+    integration_type: null
+  - name: MSDefenderOffice365 disallow
+    version: '1.0'
+    author: Vito Piserchia
+    license: AGPL-V3
+    description: Remove allow entries from the Tenant Allow/Block List in the Microsoft 365 Defender
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
     integration_type: null
   functions: []
@@ -106,4 +108,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 5
