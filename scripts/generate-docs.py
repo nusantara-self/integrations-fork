@@ -140,7 +140,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     # Flow
     if flow:
         lines.extend([
-            f"## TheHive Flow Node ({manifest['stats'].get('totalFlow', 1)})", "",
+            f"## TheHive Flow node ({manifest['stats'].get('totalFlow', 1)})", "",
             f"### {SECTION_DESCRIPTIONS['Flow']}", "",
         ])
         if flow.get('description'):
@@ -231,7 +231,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         f"- **Total Responders:** {stats_totals['totalResponders']}",
         f"- **Total Functions:** {stats_totals['totalFunctions']}",
         f"- **Total Notifiers:** {stats_totals['totalNotifiers']}",
-        f"- **Total TheHive Flow Node:** {stats_totals['totalFlow']}",
+        f"- **Total TheHive Flow node:** {stats_totals['totalFlow']}",
         f"- **Total External Integrations:** {stats_totals['totalExternalIntegrations']}",
         f"- **Total Integrations:** {stats_totals['total']}", "",
     ])
@@ -265,7 +265,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         if stats['totalResponders'] > 0: parts.append(f"{stats['totalResponders']} responders")
         if stats['totalFunctions'] > 0: parts.append(f"{stats['totalFunctions']} functions")
         if stats.get('totalNotifiers', 0) > 0: parts.append("notifier")
-        if stats.get('totalFlow', 0) > 0: parts.append("TheHive Flow Node")
+        if stats.get('totalFlow', 0) > 0: parts.append("TheHive Flow node")
         if stats.get('totalExternalIntegrations', 0) > 0: parts.append(f"{stats['totalExternalIntegrations']} external")
         breakdown = ", ".join(parts) or "No integrations"
         lines.append(f"- **[{manifest['name']}](vendors/{vendor_id}/overview.md)** - *{category}* - {breakdown}")
