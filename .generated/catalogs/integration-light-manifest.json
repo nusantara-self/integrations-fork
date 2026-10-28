@@ -4557,8 +4557,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 1,
-      "totalWorkflows": 0,
-      "total": 4
+      "totalWorkflows": 1,
+      "total": 5
     }
   },
   "SophosIntelix": {

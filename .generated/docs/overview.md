@@ -23,9 +23,9 @@ Built something useful? Contributions are welcome!
 - **Total Functions:** 7
 - **Total Notifiers:** 8
 - **Total TheHive Flow nodes:** 14
-- **Total Workflows:** 2
+- **Total Workflows:** 3
 - **Total External Integrations:** 12
-- **Total Integrations:** 494
+- **Total Integrations:** 495
 
 ## Vendors by Category
 
@@ -78,7 +78,7 @@ Built something useful? Contributions are welcome!
 **[ServiceNow](vendors/ServiceNow/overview.md)** (1 integrations)
   ServiceNow is an enterprise IT service management platform that handles incidents, change request...
 
-**[Slack](vendors/Slack/overview.md)** (4 integrations)
+**[Slack](vendors/Slack/overview.md)** (5 integrations)
   Slack is a is a team collaboration platform that provides channels, direct messaging, file sharin...
 
 **[Telegram](vendors/Telegram/overview.md)** (1 integrations)
@@ -760,7 +760,7 @@ Built something useful? Contributions are welcome!
 - **[Shodan](vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
 - **[Shuffle](vendors/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[SinkDB](vendors/SinkDB/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders, notifier, TheHive Flow node
+- **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders, notifier, TheHive Flow node, 1 workflows
 - **[Soltra Edge](vendors/SoltraEdge/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SophosIntelix](vendors/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](vendors/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
