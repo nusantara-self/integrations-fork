@@ -26,9 +26,16 @@ SECTION_DESCRIPTIONS = {
 }
 
 
+def _count_heading(label: str, count: int) -> str:
+    """Section heading with item count, e.g. '## Analyzers (3)'. Uses the singular label when there is a single item."""
+    if count == 1 and label.endswith('s'):
+        label = label[:-1]
+    return f"## {label} ({count})"
+
+
 def _render_cortex_items(items: list, item_type: str, tagline: str = None) -> List[str]:
     """Render a list of analyzers or responders to markdown lines."""
-    lines = [f"## {item_type} ({len(items)})", ""]
+    lines = [_count_heading(item_type, len(items)), ""]
     desc = tagline or SECTION_DESCRIPTIONS.get(item_type)
     if desc:
         lines.extend([f"### {desc}", ""])
@@ -83,7 +90,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
     # Use Cases
     if use_cases:
-        lines.extend([f"## Use Cases ({len(use_cases)})", "",
+        lines.extend([_count_heading("Use Cases", len(use_cases)), "",
                        f"### {SECTION_DESCRIPTIONS['Use Cases']}", ""])
         function_lookup = {f.get('file', ''): f for f in functions}
 
@@ -159,7 +166,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
     # Functions
     if functions:
-        lines.extend([f"## Functions ({len(functions)})", "",
+        lines.extend([_count_heading("Functions", len(functions)), "",
                        f"### {SECTION_DESCRIPTIONS['Functions']}", ""])
         for func in functions:
             name = func.get('name', 'Unknown')
@@ -179,7 +186,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
     # External Integrations
     if external_integrations:
-        lines.extend([f"## External Integrations ({len(external_integrations)})", "",
+        lines.extend([_count_heading("External Integrations", len(external_integrations)), "",
                        f"### External integrations that connect {manifest['name']} with TheHive", ""])
 
         for i, vi in enumerate(external_integrations):
