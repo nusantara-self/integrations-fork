@@ -23,9 +23,9 @@ Built something useful? Contributions are welcome!
 - **Total Functions:** 7
 - **Total Notifiers:** 8
 - **Total TheHive Flow nodes:** 14
-- **Total Workflows:** 3
+- **Total Workflows:** 7
 - **Total External Integrations:** 12
-- **Total Integrations:** 495
+- **Total Integrations:** 499
 
 ## Vendors by Category
 
@@ -63,7 +63,7 @@ Built something useful? Contributions are welcome!
 **[Email](vendors/Email/overview.md)** (1 integrations)
   Send email notifications from TheHive to designated email addresses when specific events occur.
 
-**[Jira Cloud](vendors/JIRA/overview.md)** (2 integrations)
+**[Jira Cloud](vendors/JIRA/overview.md)** (3 integrations)
   Jira Cloud is Atlassian's issue tracking and project management platform, used by security teams ...
 
 **[Mattermost](vendors/Mattermost/overview.md)** (1 integrations)
@@ -299,7 +299,7 @@ Built something useful? Contributions are welcome!
 **[OpenCTI](vendors/OpenCTI/overview.md)** (4 integrations)
   Open-source cyber threat intelligence platform for structuring, storing, and visualizing threat d...
 
-**[Recorded Future](vendors/RecordedFuture/overview.md)** (2 integrations)
+**[Recorded Future](vendors/RecordedFuture/overview.md)** (3 integrations)
   Recorded Future is a real-time threat intelligence platform that analyzes data from the open web,...
 
 **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** (3 integrations)
@@ -343,7 +343,7 @@ Built something useful? Contributions are welcome!
 
 **[CIRCL Passive SSL](vendors/CIRCLPassiveSSL/overview.md)** (1 integrations)
 
-**[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** (1 integrations)
+**[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** (2 integrations)
 
 **[CiscoThreatGrid](vendors/CiscoThreatGrid/overview.md)** (1 integrations)
 
@@ -552,7 +552,7 @@ Built something useful? Contributions are welcome!
 **[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** (1 integrations)
   Built-in Cortex analyzer that locally checks a domain's SPF, DKIM, and DMARC DNS records to asses...
 
-**[EmlParser](vendors/EmlParser/overview.md)** (1 integrations)
+**[EmlParser](vendors/EmlParser/overview.md)** (2 integrations)
   Built-in Cortex analyzer that parses .eml email files locally and extracts headers, body, attachm...
 
 **[FileInfo](vendors/FileInfo/overview.md)** (1 integrations)
@@ -620,7 +620,7 @@ Built something useful? Contributions are welcome!
 - **[CIRCL Hash Lookup](vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive DNS](vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive SSL](vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers, 1 workflows
 - **[Cisco Duo](vendors/CiscoDuo/overview.md)** - *Identity & Access Management* - 3 responders
 - **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/CiscoAMPforEndpoints/overview.md)** - *EDR* - 5 responders
 - **[Cisco Umbrella](vendors/CiscoUmbrella/overview.md)** - *Network Security* - 1 analyzers, 1 responders
@@ -655,7 +655,7 @@ Built something useful? Contributions are welcome!
 - **[Email](vendors/Email/overview.md)** - *Collaboration* - notifier
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
-- **[EmlParser](vendors/EmlParser/overview.md)** - *Utilities* - 1 analyzers
+- **[EmlParser](vendors/EmlParser/overview.md)** - *Utilities* - 1 analyzers, 1 workflows
 - **[FileInfo](vendors/FileInfo/overview.md)** - *Utilities* - 1 analyzers
 - **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FireHOL](vendors/FireHOL/overview.md)** - *Uncategorized* - 1 analyzers
@@ -685,7 +685,7 @@ Built something useful? Contributions are welcome!
 - **[isMalicious](vendors/isMalicious/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IVRE](vendors/IVRE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[JAMFProtect](vendors/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders, 1 functions
-- **[Jira Cloud](vendors/JIRA/overview.md)** - *Collaboration* - 1 functions, TheHive Flow node
+- **[Jira Cloud](vendors/JIRA/overview.md)** - *Collaboration* - 1 functions, TheHive Flow node, 1 workflows
 - **[Joe Sandbox](vendors/JoeSandbox/overview.md)** - *Uncategorized* - 3 analyzers
 - **[Jupyter](vendors/Jupyter/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Kaspersky TIP](vendors/KasperskyTIP/overview.md)** - *Uncategorized* - 1 analyzers
@@ -745,7 +745,7 @@ Built something useful? Contributions are welcome!
 - **[QrDecode](vendors/QrDecode/overview.md)** - *Utilities* - 1 analyzers
 - **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
 - **[RDAP](vendors/RDAP/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers, TheHive Flow node
+- **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers, TheHive Flow node, 1 workflows
 - **[Redis](vendors/Redis/overview.md)** - *SOAR & Automation* - notifier
 - **[Redmine](vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[Request Tracker (RT4)](vendors/RT4/overview.md)** - *Collaboration* - 1 responders

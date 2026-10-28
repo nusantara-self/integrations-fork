@@ -7,10 +7,13 @@
 - **Total Responders:** 163
 - **Total Functions:** 7
 - **Total External Integrations:** 12
-- **Total Integrations:** 495
+- **Total Integrations:** 499
 
 ## Changes
 
-### Updated Vendors (1)
+### Updated Vendors (4)
 
-- **Slack**: 4 -> 5 (+1)
+- **CIRCL Vulnerability-Lookup**: 1 -> 2 (+1)
+- **Jira Cloud**: 2 -> 3 (+1)
+- **Recorded Future**: 2 -> 3 (+1)
+- **EmlParser**: 1 -> 2 (+1)

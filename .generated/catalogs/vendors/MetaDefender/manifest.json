@@ -39,36 +39,6 @@
         "integration_type": null
       },
       {
-        "name": "MetaDefenderCore Scan",
-        "version": "1.0",
-        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Scan a file with MetaDefender Core",
-        "dataTypes": [
-          "file"
-        ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
-        "integration_type": null
-      },
-      {
-        "name": "MetaDefenderCloud Scan",
-        "version": "1.0",
-        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Scan a file with MetaDefender Cloud",
-        "dataTypes": [
-          "file"
-        ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
-        "integration_type": null
-      },
-      {
         "name": "MetaDefenderCloud GetReport",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
@@ -84,6 +54,21 @@
         "integration_type": null
       },
       {
+        "name": "MetaDefenderCore Scan",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Scan a file with MetaDefender Core",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
+        "integration_type": null
+      },
+      {
         "name": "MetaDefenderCore GetReport",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
@@ -95,6 +80,21 @@
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
         "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
+        "integration_type": null
+      },
+      {
+        "name": "MetaDefenderCloud Scan",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Scan a file with MetaDefender Cloud",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       }

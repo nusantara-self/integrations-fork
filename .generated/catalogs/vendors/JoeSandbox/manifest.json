@@ -22,21 +22,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "JoeSandbox Url Analysis",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "Joe Sandbox URL analysis.",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox",
-        "integration_type": null
-      },
-      {
         "name": "JoeSandbox File Analysis Noinet",
         "version": "3.0",
         "author": "CERT-BDF",
@@ -48,6 +33,21 @@
         "file": ".upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json",
         "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Noinet.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox",
+        "integration_type": null
+      },
+      {
+        "name": "JoeSandbox Url Analysis",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "Joe Sandbox URL analysis.",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox",
         "integration_type": null
       },

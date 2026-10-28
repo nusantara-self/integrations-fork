@@ -9,6 +9,13 @@ Get the latest VirusTotal report for a file, hash, domain or an IP address.
 - **License:** AGPL-V3
 - **Data Types:** `file`, `hash`, `domain`, `fqdn`, `ip`, `url`
 
+#### [VirusTotal Rescan v3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal)
+Use VirusTotal to run new analysis on hash.
+
+- **Author:** CERT-LDO
+- **License:** AGPL-V3
+- **Data Types:** `hash`
+
 #### [VirusTotal DownloadSample v3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal)
 Use VirusTotal to download the original file for an hash.
 
@@ -22,13 +29,6 @@ Use VirusTotal to scan a file or URL.
 - **Author:** CERT-BDF, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `file`, `url`
-
-#### [VirusTotal Rescan v3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal)
-Use VirusTotal to run new analysis on hash.
-
-- **Author:** CERT-LDO
-- **License:** AGPL-V3
-- **Data Types:** `hash`
 
 ---
 

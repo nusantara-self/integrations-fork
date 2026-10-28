@@ -592,8 +592,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
-      "totalWorkflows": 0,
-      "total": 1
+      "totalWorkflows": 1,
+      "total": 2
     }
   },
   "CiscoAMPforEndpoints": {
@@ -1567,8 +1567,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
-      "totalWorkflows": 0,
-      "total": 1
+      "totalWorkflows": 1,
+      "total": 2
     }
   },
   "FileInfo": {
@@ -2452,8 +2452,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
-      "totalWorkflows": 0,
-      "total": 2
+      "totalWorkflows": 1,
+      "total": 3
     }
   },
   "JoeSandbox": {
@@ -4142,8 +4142,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
-      "totalWorkflows": 0,
-      "total": 2
+      "totalWorkflows": 1,
+      "total": 3
     }
   },
   "Redis": {
