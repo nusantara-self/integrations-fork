@@ -17,15 +17,15 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 207
+- **Total Vendors:** 206
 - **Total Analyzers:** 288
 - **Total Responders:** 163
 - **Total Functions:** 7
 - **Total Notifiers:** 8
-- **Total TheHive Flow nodes:** 14
+- **Total TheHive Flow nodes:** 13
 - **Total Workflows:** 7
 - **Total External Integrations:** 12
-- **Total Integrations:** 499
+- **Total Integrations:** 498
 
 ## Vendors by Category
 
@@ -246,9 +246,6 @@ Built something useful? Contributions are welcome!
 
 **[Shuffle](vendors/Shuffle/overview.md)** (2 integrations)
   Shuffle is an open-source security orchestration, automation and response (SOAR) platform that au...
-
-**[TheHive](vendors/TheHive/overview.md)** (1 integrations)
-  TheHive is StrangeBee's security incident response platform for managing alerts, cases, tasks and...
 
 **[Tines](vendors/Tines/overview.md)** (1 integrations)
 
@@ -772,7 +769,6 @@ Built something useful? Contributions are welcome!
 - **[Telegram](vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[Test Analyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
-- **[TheHive](vendors/TheHive/overview.md)** - *SOAR & Automation* - TheHive Flow node
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
 - **[ThreatFox](vendors/ThreatFox/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers

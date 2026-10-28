@@ -2,18 +2,15 @@
 
 ## Statistics
 
-- **Total Vendors:** 207
+- **Total Vendors:** 206
 - **Total Analyzers:** 288
 - **Total Responders:** 163
 - **Total Functions:** 7
 - **Total External Integrations:** 12
-- **Total Integrations:** 499
+- **Total Integrations:** 498
 
 ## Changes
 
-### Updated Vendors (4)
+### Removed Vendors (1)
 
-- **CIRCL Vulnerability-Lookup**: 1 -> 2 (+1)
-- **Jira Cloud**: 2 -> 3 (+1)
-- **Recorded Future**: 2 -> 3 (+1)
-- **EmlParser**: 1 -> 2 (+1)
+- `TheHive`

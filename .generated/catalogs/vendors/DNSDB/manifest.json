@@ -22,6 +22,21 @@
   "integrations": {
     "analyzers": [
       {
+        "name": "DNSDB IPHistory",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "Use DNSDB to fetch historical records for an IP address.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
+        "integration_type": null
+      },
+      {
         "name": "DNSDB NameHistory",
         "version": "2.0",
         "author": "CERT-BDF",
@@ -34,21 +49,6 @@
         "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
         "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
-        "integration_type": null
-      },
-      {
-        "name": "DNSDB IPHistory",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "Use DNSDB to fetch historical records for an IP address.",
-        "dataTypes": [
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       },
