@@ -231,7 +231,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         f"- **Total Responders:** {stats_totals['totalResponders']}",
         f"- **Total Functions:** {stats_totals['totalFunctions']}",
         f"- **Total Notifiers:** {stats_totals['totalNotifiers']}",
-        f"- **Total TheHive Flow node:** {stats_totals['totalFlow']}",
+        f"- **Total TheHive Flow nodes:** {stats_totals['totalFlow']}",
         f"- **Total External Integrations:** {stats_totals['totalExternalIntegrations']}",
         f"- **Total Integrations:** {stats_totals['total']}", "",
     ])
