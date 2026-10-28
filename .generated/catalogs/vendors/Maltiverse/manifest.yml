@@ -19,10 +19,10 @@ logo:
   github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Maltiverse/assets/logo.png
 useCases: []
 notifier: false
-flow: null
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: false

@@ -10,10 +10,10 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
 externalIntegrations: []
 displayOnWebsite: false
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: false

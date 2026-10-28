@@ -166,7 +166,7 @@ This action contains the host, which stops any network communications to locatio
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -178,11 +178,11 @@ Investigate and respond on CrowdStrike-protected endpoints: alerts, hosts, IOCs,
 - Detonate a suspicious attachment in the Falcon sandbox and attach the report to the case
 - Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.
 
 ---
 
-## External Integrations (1)
+## External Integration (1)
 
 ### External integrations that connect CrowdStrike Falcon with TheHive
 

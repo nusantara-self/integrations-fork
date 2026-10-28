@@ -108,7 +108,7 @@ Run full virus scan to machine with Microsoft Defender for Endpoints
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -120,4 +120,4 @@ Respond on Windows, macOS and Linux endpoints managed by Defender for Endpoint.
 - Quarantine a malicious file on the endpoint where it was seen
 - Create a block indicator for a confirmed malicious IP, URL or hash
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

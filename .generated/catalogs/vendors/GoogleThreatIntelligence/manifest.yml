@@ -22,16 +22,15 @@ logo:
   github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
 useCases: []
 notifier: false
-flow: null
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 7
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: true
-subscription_required:
-- true
-- false
+subscription_required: true
+free_subscription: false
 vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/GoogleThreatIntelligence/overview.md
 integrations:
   analyzers:

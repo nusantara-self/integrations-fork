@@ -221,7 +221,7 @@ Search a hash in HarfangLab EDR's telemetry
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -233,11 +233,11 @@ Investigate and respond on HarfangLab-protected endpoints, including telemetry h
 - Hunt for an IOC across process, network and DNS telemetry of the whole fleet
 - Download a suspicious binary and send it to VirusTotal or a sandbox
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.
 
 ---
 
-## External Integrations (1)
+## External Integration (1)
 
 ### External integrations that connect HarfangLab with TheHive
 

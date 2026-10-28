@@ -12,7 +12,7 @@ homepage: https://foxio.io
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100

@@ -94,7 +94,7 @@ Force password reset at next login for a User Principal Name. (mail)
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -106,4 +106,4 @@ Investigate and contain compromised identities in Microsoft Entra ID.
 - Enrich a user observable with roles, groups and MFA status to assess impact
 - Review recent sign-ins and risk detections for a suspected account takeover
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

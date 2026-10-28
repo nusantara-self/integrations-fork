@@ -116,7 +116,7 @@ RiskIQ: malware hashes from various sources associated with an IOC.
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 

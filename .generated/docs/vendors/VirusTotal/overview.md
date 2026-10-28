@@ -32,7 +32,7 @@ Use VirusTotal to scan a file or URL.
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -44,4 +44,4 @@ Get VirusTotal reputation reports and submit files and URLs for scanning.
 - Submit an unknown attachment for scanning and wait for the analysis result
 - Auto-tag observables as malicious above a detection threshold
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

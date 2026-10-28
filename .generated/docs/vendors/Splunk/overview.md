@@ -81,7 +81,7 @@ Execute a savedsearch on a Splunk instance with a hash as argument
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 
@@ -94,7 +94,7 @@ Sync TheHive case/alert status back to the corresponding Splunk Enterprise Secur
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -106,11 +106,11 @@ Search Splunk data, read fired alerts, and update Splunk Enterprise Security fin
 - Turn fired Splunk alerts into TheHive alerts
 - Update the Enterprise Security notable or finding status when the case is resolved
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.
 
 ---
 
-## Functions (1)
+## Function (1)
 
 ### Automate TheHive actions or ingest alerts
 

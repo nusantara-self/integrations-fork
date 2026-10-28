@@ -14,7 +14,7 @@ logo:
   github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Abuse_Finder/assets/logo.svg
 useCases: []
 notifier: false
-flow: null
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100

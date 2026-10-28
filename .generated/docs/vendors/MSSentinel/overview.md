@@ -1,4 +1,4 @@
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -10,11 +10,11 @@ Work Sentinel incidents from TheHive Flow and maintain Sentinel watchlists.
 - Write the TheHive analysis back as a comment on the Sentinel incident
 - Close the Sentinel incident with the right classification when the case is closed
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.
 
 ---
 
-## Functions (1)
+## Function (1)
 
 ### Automate TheHive actions or ingest alerts
 

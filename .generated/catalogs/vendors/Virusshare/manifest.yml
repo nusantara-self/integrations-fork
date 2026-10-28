@@ -11,10 +11,10 @@ homepage: https://virusshare.com
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: false

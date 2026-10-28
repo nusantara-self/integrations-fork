@@ -40,7 +40,7 @@ This integration is available as a built-in [TheHive notifier](https://docs.stra
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -52,4 +52,4 @@ Notify, coordinate and interact with people in Slack during an incident.
 - Create a dedicated war-room channel per major incident and invite responders
 - DM a user to confirm whether they performed a suspicious action
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

@@ -55,7 +55,7 @@
     }
   ],
   "notifier": false,
-  "flow": null,
+  "flow": {},
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 10,

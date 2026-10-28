@@ -16,7 +16,7 @@
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
   "externalIntegrations": [
     {
       "name": "Cortex and TheHive Nodes",
@@ -26,7 +26,7 @@
     }
   ],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
   "registration_required": false,

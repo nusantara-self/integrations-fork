@@ -35,17 +35,11 @@
     }
   ],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "registration_required": [
-    true,
-    false
-  ],
-  "subscription_required": [
-    true,
-    false
-  ],
+  "registration_required": true,
+  "subscription_required": true,
   "free_subscription": true,
   "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Elasticsearch/overview.md",
   "integrations": {

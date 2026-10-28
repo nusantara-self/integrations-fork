@@ -18,7 +18,7 @@ Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and re
 
 ---
 
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 

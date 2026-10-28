@@ -11,10 +11,10 @@ homepage: https://any.run/?utm_source=thehive&utm_medium=documentation&utm_campa
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: Enrich observables with behavioral threat intelligence
 analyzerDisplayName: ANY.RUN
 registration_required: true

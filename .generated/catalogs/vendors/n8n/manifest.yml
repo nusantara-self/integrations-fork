@@ -17,7 +17,7 @@ logo:
   github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/n8n/assets/logo.png
 useCases: []
 notifier: false
-flow: null
+flow: {}
 externalIntegrations:
 - name: Cortex and TheHive Nodes
   description: Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders,
@@ -25,7 +25,7 @@ externalIntegrations:
   type: workflow-nodes
   documentation: https://n8n.io/integrations/thehive-5/
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: false

@@ -47,7 +47,7 @@ useCases:
   linked_to:
   - integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
 notifier: false
-flow: null
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 10

@@ -32,6 +32,7 @@ analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
+free_subscription: false
 vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/RecordedFuture/overview.md
 integrations:
   analyzers:

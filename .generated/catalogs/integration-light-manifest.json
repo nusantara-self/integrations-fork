@@ -69,7 +69,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": true,
@@ -123,7 +123,7 @@
     "tags": [],
     "homepage": "https://any.run/?utm_source=thehive&utm_medium=documentation&utm_campaign=thehive&utm_content=linktolanding",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -347,7 +347,7 @@
     "tags": [],
     "homepage": "https://cert.at",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -479,7 +479,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": true,
@@ -505,7 +505,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -531,7 +531,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -557,7 +557,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -585,7 +585,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -886,7 +886,7 @@
     ],
     "homepage": "https://www.paloaltonetworks.com/cortex/cortex-xsoar",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -920,7 +920,7 @@
     ],
     "homepage": "https://www.crowdsec.net",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Crowdsec/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -1298,7 +1298,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1410,7 +1410,7 @@
     ],
     "homepage": "https://www.elastic.co",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Elasticsearch/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -1444,7 +1444,7 @@
     ],
     "homepage": "https://emailrep.io",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/EmailRep/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": true,
@@ -1552,7 +1552,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1604,7 +1604,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1736,7 +1736,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -1798,7 +1798,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -1830,7 +1830,7 @@
     ],
     "homepage": "https://www.greynoise.io",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/GreyNoise/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -1946,7 +1946,7 @@
     ],
     "homepage": "https://haveibeenpwned.com",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/HIBP/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1980,7 +1980,7 @@
     ],
     "homepage": "https://hunter.io",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Hunterio/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -2014,7 +2014,7 @@
     ],
     "homepage": "https://www.hybrid-analysis.com",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/HybridAnalysis/assets/logo.ico",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2042,7 +2042,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -2070,7 +2070,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2128,7 +2128,7 @@
     ],
     "homepage": "https://www.rapid7.com/products/insightconnect/",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/InsightConnect/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2216,7 +2216,7 @@
     ],
     "homepage": "https://ipinfo.io",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/IPinfo/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2379,7 +2379,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -2459,7 +2459,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2707,7 +2707,7 @@
     ],
     "homepage": "https://www.maltiverse.com",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Maltiverse/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2741,7 +2741,7 @@
     ],
     "homepage": "https://bazaar.abuse.ch",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MalwareBazaar/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -2855,7 +2855,7 @@
     ],
     "homepage": "https://www.maxmind.com",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MaxMind/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2941,7 +2941,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2975,7 +2975,7 @@
     ],
     "homepage": "https://www.mnemonic.no",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MnemonicPDNS/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -3285,7 +3285,7 @@
     ],
     "homepage": "https://n8n.io",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/n8n/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": true,
@@ -3595,7 +3595,7 @@
     ],
     "homepage": "https://otx.alienvault.com",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/OTXQuery/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -3677,7 +3677,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -3703,7 +3703,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -3729,7 +3729,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -3842,7 +3842,7 @@
     ],
     "homepage": "https://www.phishtank.com",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/PhishTank/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -4174,7 +4174,7 @@
     "tags": [],
     "homepage": "https://www.sekoia.io",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -4328,7 +4328,7 @@
     ],
     "homepage": "https://shuffler.io",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Shuffle/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4603,7 +4603,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4701,7 +4701,7 @@
     ],
     "homepage": "https://threatconnect.com",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4788,7 +4788,7 @@
     ],
     "homepage": "https://www.threatq.com",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/ThreatQ/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4845,7 +4845,7 @@
     ],
     "homepage": "https://www.tines.com",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -5132,7 +5132,7 @@
     ],
     "homepage": "https://docs.velociraptor.app",
     "logo_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Velociraptor/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -5186,7 +5186,7 @@
     "tags": [],
     "homepage": "https://virusshare.com",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
