@@ -21,21 +21,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "CheckPhish Submit",
-        "version": "1.0",
-        "author": "Peter Juhas",
-        "license": "AGPL-V3",
-        "description": "Submit url address to CheckPhish",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish",
-        "integration_type": null
-      },
-      {
         "name": "CheckPhish",
         "version": "1.0",
         "author": "Peter Juhas",
@@ -47,6 +32,21 @@
         "file": ".upstream/cortex/analyzers/CheckPhish/CheckPhish.json",
         "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json",
         "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish",
+        "integration_type": null
+      },
+      {
+        "name": "CheckPhish Submit",
+        "version": "1.0",
+        "author": "Peter Juhas",
+        "license": "AGPL-V3",
+        "description": "Submit url address to CheckPhish",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish",
         "integration_type": null
       }
