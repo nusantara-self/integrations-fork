@@ -1,5 +1,5 @@
 {
-  "totalWorkflows": 2,
+  "totalWorkflows": 3,
   "workflows": [
     {
       "name": "Block hash as Falcon IOC",
@@ -16,6 +16,14 @@
       "vendor": "CrowdStrike Falcon",
       "vendorId": "CrowdstrikeFalcon",
       "category": "EDR"
+    },
+    {
+      "name": "Slack Alert Manager",
+      "url": "https://wp.sb.ampdesign.com.ua/workflow/slack-alert-manager/",
+      "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+      "vendor": "Slack",
+      "vendorId": "Slack",
+      "category": "Collaboration"
     }
   ],
   "byVendor": {
@@ -36,6 +44,16 @@
         "vendorId": "CrowdstrikeFalcon",
         "category": "EDR"
       }
+    ],
+    "Slack": [
+      {
+        "name": "Slack Alert Manager",
+        "url": "https://wp.sb.ampdesign.com.ua/workflow/slack-alert-manager/",
+        "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+        "vendor": "Slack",
+        "vendorId": "Slack",
+        "category": "Collaboration"
+      }
     ]
   },
   "byCategory": {
@@ -55,6 +73,16 @@
         "vendor": "CrowdStrike Falcon",
         "vendorId": "CrowdstrikeFalcon",
         "category": "EDR"
+      }
+    ],
+    "Collaboration": [
+      {
+        "name": "Slack Alert Manager",
+        "url": "https://wp.sb.ampdesign.com.ua/workflow/slack-alert-manager/",
+        "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+        "vendor": "Slack",
+        "vendorId": "Slack",
+        "category": "Collaboration"
       }
     ]
   }
