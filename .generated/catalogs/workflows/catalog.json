@@ -1,0 +1,61 @@
+{
+  "totalWorkflows": 2,
+  "workflows": [
+    {
+      "name": "Block hash as Falcon IOC",
+      "url": "https://github.com/StrangeBeeCorp/integrations/tree/main/integrations/vendors/CrowdstrikeFalcon/workflows/block-hash-as-ioc",
+      "description": "Pushes a hash observable flagged as IOC in TheHive to CrowdStrike Falcon as a blocking indicator.",
+      "vendor": "CrowdStrike Falcon",
+      "vendorId": "CrowdstrikeFalcon",
+      "category": "EDR"
+    },
+    {
+      "name": "Contain host on critical case",
+      "url": "https://github.com/StrangeBeeCorp/integrations/tree/main/integrations/vendors/CrowdstrikeFalcon/workflows/contain-host-on-critical-case",
+      "description": "Network-contains the affected Falcon host when a critical case is opened in TheHive and logs the action in the case timeline.",
+      "vendor": "CrowdStrike Falcon",
+      "vendorId": "CrowdstrikeFalcon",
+      "category": "EDR"
+    }
+  ],
+  "byVendor": {
+    "CrowdStrike Falcon": [
+      {
+        "name": "Block hash as Falcon IOC",
+        "url": "https://github.com/StrangeBeeCorp/integrations/tree/main/integrations/vendors/CrowdstrikeFalcon/workflows/block-hash-as-ioc",
+        "description": "Pushes a hash observable flagged as IOC in TheHive to CrowdStrike Falcon as a blocking indicator.",
+        "vendor": "CrowdStrike Falcon",
+        "vendorId": "CrowdstrikeFalcon",
+        "category": "EDR"
+      },
+      {
+        "name": "Contain host on critical case",
+        "url": "https://github.com/StrangeBeeCorp/integrations/tree/main/integrations/vendors/CrowdstrikeFalcon/workflows/contain-host-on-critical-case",
+        "description": "Network-contains the affected Falcon host when a critical case is opened in TheHive and logs the action in the case timeline.",
+        "vendor": "CrowdStrike Falcon",
+        "vendorId": "CrowdstrikeFalcon",
+        "category": "EDR"
+      }
+    ]
+  },
+  "byCategory": {
+    "EDR": [
+      {
+        "name": "Block hash as Falcon IOC",
+        "url": "https://github.com/StrangeBeeCorp/integrations/tree/main/integrations/vendors/CrowdstrikeFalcon/workflows/block-hash-as-ioc",
+        "description": "Pushes a hash observable flagged as IOC in TheHive to CrowdStrike Falcon as a blocking indicator.",
+        "vendor": "CrowdStrike Falcon",
+        "vendorId": "CrowdstrikeFalcon",
+        "category": "EDR"
+      },
+      {
+        "name": "Contain host on critical case",
+        "url": "https://github.com/StrangeBeeCorp/integrations/tree/main/integrations/vendors/CrowdstrikeFalcon/workflows/contain-host-on-critical-case",
+        "description": "Network-contains the affected Falcon host when a critical case is opened in TheHive and logs the action in the case timeline.",
+        "vendor": "CrowdStrike Falcon",
+        "vendorId": "CrowdstrikeFalcon",
+        "category": "EDR"
+      }
+    ]
+  }
+}

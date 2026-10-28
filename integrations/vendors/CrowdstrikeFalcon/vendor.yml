@@ -16,6 +16,13 @@ flow:
     - "Contain a host automatically when a critical case is opened in TheHive"
     - "Detonate a suspicious attachment in the Falcon sandbox and attach the report to the case"
     - "Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide"
+workflows:
+  - name: "Contain host on critical case"
+    url: "https://github.com/StrangeBeeCorp/integrations/tree/main/integrations/vendors/CrowdstrikeFalcon/workflows/contain-host-on-critical-case"
+    description: "Network-contains the affected Falcon host when a critical case is opened in TheHive and logs the action in the case timeline."
+  - name: "Block hash as Falcon IOC"
+    url: "https://github.com/StrangeBeeCorp/integrations/tree/main/integrations/vendors/CrowdstrikeFalcon/workflows/block-hash-as-ioc"
+    description: "Pushes a hash observable flagged as IOC in TheHive to CrowdStrike Falcon as a blocking indicator."
 externalIntegrations:
 - name: falcon2thehive
   description: Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.
