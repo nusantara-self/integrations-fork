@@ -2,12 +2,12 @@
 
 ### Real-world integrations with TheHive
 
-#### [Notify Slack When an Alert Is Created in TheHive](https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md)
-For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
-
-
-#### [Notify Slack When a Case Assignee Changes in TheHive](https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md)
+#### [Notify Slack When a Case Assignee Changes in TheHive](https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md)
 For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will inform only active users.
+
+
+#### [Notify Slack When an Alert Is Created in TheHive](https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md)
+For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
 
 
 ---
@@ -16,15 +16,15 @@ For each assignee change for a case in TheHive, create a Slack block message and
 
 ### Trigger automated responses
 
-#### [Slack CreateChannel v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack)
-Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.
+#### [Slack SyncChannel v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack)
+Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 
-#### [Slack SyncChannel v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack)
-Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
+#### [Slack CreateChannel v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack)
+Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
@@ -40,7 +40,7 @@ This integration is available as a built-in [TheHive notifier](https://docs.stra
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -52,4 +52,4 @@ Notify, coordinate and interact with people in Slack during an incident.
 - Create a dedicated war-room channel per major incident and invite responders
 - DM a user to confirm whether they performed a suspicious action
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

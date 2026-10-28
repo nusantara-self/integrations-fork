@@ -10,13 +10,17 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/MetaDefender/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/MetaDefender/overview.md
 integrations:
   analyzers:
   - name: MetaDefenderCloud Reputation
@@ -29,20 +33,8 @@ integrations:
     - url
     - domain
     file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
-    integration_type: null
-  - name: MetaDefenderCloud GetReport
-    version: '1.0'
-    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
-    license: AGPL-V3
-    description: Get the latest MetaDefender Cloud report for hash.
-    dataTypes:
-    - hash
-    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
     integration_type: null
   - name: MetaDefenderCore Scan
@@ -53,20 +45,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
-    integration_type: null
-  - name: MetaDefenderCore GetReport
-    version: '1.0'
-    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
-    license: AGPL-V3
-    description: Get the latest MetaDefender Core report for hash.
-    dataTypes:
-    - hash
-    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
     integration_type: null
   - name: MetaDefenderCloud Scan
@@ -77,8 +57,32 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
+    integration_type: null
+  - name: MetaDefenderCloud GetReport
+    version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
+    description: Get the latest MetaDefender Cloud report for hash.
+    dataTypes:
+    - hash
+    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
+    integration_type: null
+  - name: MetaDefenderCore GetReport
+    version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
+    description: Get the latest MetaDefender Core report for hash.
+    dataTypes:
+    - hash
+    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
     integration_type: null
   responders: []
@@ -91,4 +95,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 5

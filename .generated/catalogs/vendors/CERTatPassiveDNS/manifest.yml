@@ -11,13 +11,17 @@ homepage: https://cert.at
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/CERTatPassiveDNS/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/CERTatPassiveDNS/overview.md
 integrations:
   analyzers:
   - name: CERTatPassiveDNS
@@ -30,8 +34,8 @@ integrations:
     - fqdn
     - ip
     file: .upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CERTatPassiveDNS
     integration_type: null
   responders: []
@@ -44,4 +48,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1

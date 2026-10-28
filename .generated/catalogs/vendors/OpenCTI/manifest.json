@@ -8,7 +8,8 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -17,65 +18,9 @@
   "registration_required": true,
   "subscription_required": false,
   "free_subscription": false,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/OpenCTI/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/OpenCTI/overview.md",
   "integrations": {
     "analyzers": [
-      {
-        "name": "OpenCTI SearchObservables",
-        "version": "2.0",
-        "author": "ANSSI",
-        "license": "AGPL-V3",
-        "description": "Query multiple OpenCTI instances for a list of observables matching a pattern.",
-        "dataTypes": [
-          "domain",
-          "ip",
-          "url",
-          "fqdn",
-          "uri_path",
-          "user-agent",
-          "hash",
-          "mail",
-          "mail_subject",
-          "registry",
-          "regexp",
-          "other",
-          "filename",
-          "mail-subject"
-        ],
-        "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
-        "integration_type": null
-      },
-      {
-        "name": "OpenCTI SearchExactObservable",
-        "version": "2.0",
-        "author": "ANSSI",
-        "license": "AGPL-V3",
-        "description": "Query multiple OpenCTI instances for a specific observable.",
-        "dataTypes": [
-          "domain",
-          "ip",
-          "url",
-          "fqdn",
-          "uri_path",
-          "user-agent",
-          "hash",
-          "mail",
-          "mail_subject",
-          "registry",
-          "regexp",
-          "other",
-          "filename",
-          "mail-subject"
-        ],
-        "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
-        "integration_type": null
-      },
       {
         "name": "OpenCTI v6 SearchObservables",
         "version": "2.0",
@@ -99,8 +44,36 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchObservables.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
+        "integration_type": null
+      },
+      {
+        "name": "OpenCTI SearchObservables",
+        "version": "2.0",
+        "author": "ANSSI",
+        "license": "AGPL-V3",
+        "description": "Query multiple OpenCTI instances for a list of observables matching a pattern.",
+        "dataTypes": [
+          "domain",
+          "ip",
+          "url",
+          "fqdn",
+          "uri_path",
+          "user-agent",
+          "hash",
+          "mail",
+          "mail_subject",
+          "registry",
+          "regexp",
+          "other",
+          "filename",
+          "mail-subject"
+        ],
+        "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
         "integration_type": null
       },
@@ -127,8 +100,36 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/OpenCTI/OpenCTI_v6_SearchExactObservable.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
+        "integration_type": null
+      },
+      {
+        "name": "OpenCTI SearchExactObservable",
+        "version": "2.0",
+        "author": "ANSSI",
+        "license": "AGPL-V3",
+        "description": "Query multiple OpenCTI instances for a specific observable.",
+        "dataTypes": [
+          "domain",
+          "ip",
+          "url",
+          "fqdn",
+          "uri_path",
+          "user-agent",
+          "hash",
+          "mail",
+          "mail_subject",
+          "registry",
+          "regexp",
+          "other",
+          "filename",
+          "mail-subject"
+        ],
+        "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
         "integration_type": null
       }
@@ -144,6 +145,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 4
   }
 }

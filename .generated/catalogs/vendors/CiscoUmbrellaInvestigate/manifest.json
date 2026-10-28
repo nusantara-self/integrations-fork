@@ -7,20 +7,39 @@
   "homepage": "https://umbrella.cisco.com/products/threat-intelligence",
   "logo": {
     "file": "integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/CiscoUmbrellaInvestigate/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/CiscoUmbrellaInvestigate/overview.md",
   "integrations": {
     "analyzers": [
+      {
+        "name": "Investigate Sample",
+        "version": "1.0",
+        "author": "Cisco Umbrella Research @opendns",
+        "license": "AGPL-V3",
+        "description": "Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoUmbrellaInvestigate",
+        "integration_type": null
+      },
       {
         "name": "Investigate Categorization",
         "version": "1.0",
@@ -32,23 +51,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Categorization.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Categorization.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Categorization.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoUmbrellaInvestigate",
-        "integration_type": null
-      },
-      {
-        "name": "Investigate Sample",
-        "version": "1.0",
-        "author": "Cisco Umbrella Research @opendns",
-        "license": "AGPL-V3",
-        "description": "Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)",
-        "dataTypes": [
-          "hash"
-        ],
-        "file": ".upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Categorization.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Categorization.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoUmbrellaInvestigate",
         "integration_type": null
       }
@@ -64,6 +68,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 2
   }
 }

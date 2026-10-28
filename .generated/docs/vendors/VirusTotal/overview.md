@@ -9,13 +9,6 @@ Get the latest VirusTotal report for a file, hash, domain or an IP address.
 - **License:** AGPL-V3
 - **Data Types:** `file`, `hash`, `domain`, `fqdn`, `ip`, `url`
 
-#### [VirusTotal Rescan v3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal)
-Use VirusTotal to run new analysis on hash.
-
-- **Author:** CERT-LDO
-- **License:** AGPL-V3
-- **Data Types:** `hash`
-
 #### [VirusTotal DownloadSample v3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal)
 Use VirusTotal to download the original file for an hash.
 
@@ -30,9 +23,16 @@ Use VirusTotal to scan a file or URL.
 - **License:** AGPL-V3
 - **Data Types:** `file`, `url`
 
+#### [VirusTotal Rescan v3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal)
+Use VirusTotal to run new analysis on hash.
+
+- **Author:** CERT-LDO
+- **License:** AGPL-V3
+- **Data Types:** `hash`
+
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -44,4 +44,4 @@ Get VirusTotal reputation reports and submit files and URLs for scanning.
 - Submit an unknown attachment for scanning and wait for the analysis result
 - Auto-tag observables as malicious above a detection threshold
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

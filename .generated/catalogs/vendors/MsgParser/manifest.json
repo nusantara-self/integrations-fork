@@ -7,18 +7,22 @@
   "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/MsgParser",
   "logo": {
     "file": "integrations/vendors/MsgParser/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MsgParser/assets/logo.svg",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/MsgParser/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/MsgParser/assets/logo.svg",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/MsgParser/assets/logo.svg"
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/MsgParser/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/MsgParser/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -31,8 +35,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MsgParser",
         "integration_type": "local"
       }
@@ -48,6 +52,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 1
   }
 }

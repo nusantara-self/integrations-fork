@@ -1,4 +1,4 @@
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 
@@ -11,7 +11,7 @@ Enrich IP, Domain, FQDN, URL, or Hash with Recorded Future context:  Risk Score,
 
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -23,4 +23,4 @@ Enrich observables with Recorded Future risk scores, context and threat actor in
 - Bulk-triage all observables of an alert to decide whether to escalate
 - Attach threat actor context to a case when an IOC matches a known campaign
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

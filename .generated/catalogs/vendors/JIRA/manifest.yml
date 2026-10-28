@@ -21,12 +21,16 @@ flow:
   - Open a Jira ticket for the owning team when a case needs a fix such as a patch or config change
   - Link the Jira issue back to the TheHive case and comment progress
   - Close the case automatically when the Jira issue is resolved
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/JIRA/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/JIRA/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -39,8 +43,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
 stats:
   totalAnalyzers: 0
   totalResponders: 0
@@ -49,4 +53,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 2

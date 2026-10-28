@@ -16,8 +16,8 @@ tags:
 homepage: https://www.elastic.co
 logo:
   file: integrations/vendors/Elasticsearch/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Elasticsearch/assets/logo.png
-  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Elasticsearch/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/Elasticsearch/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Elasticsearch/assets/logo.png
 useCases: []
 notifier: false
 flow:
@@ -26,23 +26,20 @@ flow:
   - Pull Elastic detection alerts and create TheHive alerts
   - Run an ES|QL query to scope an incident across users, hosts and time range
   - Write enrichment results or case summaries into a dedicated index
+workflows: []
 externalIntegrations:
 - name: TheHive Connector for Kibana
   description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
   type: connector
   documentation: https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-registration_required:
-- true
-- false
-subscription_required:
-- true
-- false
+registration_required: true
+subscription_required: true
 free_subscription: true
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Elasticsearch/overview.md
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Elasticsearch/overview.md
 integrations:
   analyzers:
   - name: Elasticsearch Analysis
@@ -63,8 +60,8 @@ integrations:
     - hostname
     - username
     file: .upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch
     integration_type: null
   responders:
@@ -78,8 +75,8 @@ integrations:
     - thehive:case
     - thehive:alert
     file: .upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Elasticsearch
     integration_type: external_api
   functions: []
@@ -91,4 +88,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 4

@@ -7,21 +7,22 @@
   "homepage": "https://www.sekoia.io",
   "logo": {
     "file": "integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/SEKOIAIntelligenceCenter/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/SEKOIAIntelligenceCenter/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -38,8 +39,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter",
         "integration_type": null
       },
@@ -57,8 +58,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter",
         "integration_type": null
       },
@@ -76,8 +77,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter",
         "integration_type": null
       }
@@ -93,6 +94,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 3
   }
 }

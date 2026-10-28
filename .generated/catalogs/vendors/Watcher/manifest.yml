@@ -10,13 +10,17 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Watcher/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Watcher/overview.md
 integrations:
   analyzers:
   - name: Watcher Check
@@ -28,8 +32,8 @@ integrations:
     dataTypes:
     - domain
     file: .upstream/cortex/analyzers/Watcher/Watcher_Check.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Watcher/Watcher_Check.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Watcher/Watcher_Check.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Watcher/Watcher_Check.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Watcher/Watcher_Check.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Watcher
     integration_type: null
   responders:
@@ -43,22 +47,20 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Watcher/Watcher_Update.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/Watcher/Watcher_Update.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/Watcher/Watcher_Update.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/Watcher/Watcher_Update.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/Watcher/Watcher_Update.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
     integration_type: null
-  - name: Watcher Add
+  - name: Watcher Remove
     version: '1.1'
     author: THA-CERT // YNE
     license: AGPL-V3
-    description: 'Add domain to Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain: watcher:repurchased=Yes/No
-      (required), watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No,
-      watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No'
+    description: 'Remove domain from Watcher. Required tag: watcher:module=LegitDomain|WebsiteMonitoring'
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/Watcher/Watcher_Add.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/Watcher/Watcher_Add.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/Watcher/Watcher_Add.json
+    file: .upstream/cortex/responders/Watcher/Watcher_Remove.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/Watcher/Watcher_Remove.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/Watcher/Watcher_Remove.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
     integration_type: null
   - name: Watcher Transfer
@@ -72,20 +74,22 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Watcher/Watcher_Transfer.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
     integration_type: null
-  - name: Watcher Remove
+  - name: Watcher Add
     version: '1.1'
     author: THA-CERT // YNE
     license: AGPL-V3
-    description: 'Remove domain from Watcher. Required tag: watcher:module=LegitDomain|WebsiteMonitoring'
+    description: 'Add domain to Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain: watcher:repurchased=Yes/No
+      (required), watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No,
+      watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No'
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/Watcher/Watcher_Remove.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/Watcher/Watcher_Remove.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/Watcher/Watcher_Remove.json
+    file: .upstream/cortex/responders/Watcher/Watcher_Add.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/Watcher/Watcher_Add.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/Watcher/Watcher_Add.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
     integration_type: null
   functions: []
@@ -97,4 +101,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 5

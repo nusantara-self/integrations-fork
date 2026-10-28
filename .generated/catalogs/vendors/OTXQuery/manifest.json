@@ -13,21 +13,22 @@
   "homepage": "https://otx.alienvault.com",
   "logo": {
     "file": "integrations/vendors/OTXQuery/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/OTXQuery/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/OTXQuery/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/OTXQuery/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/OTXQuery/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": true,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/OTXQuery/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/OTXQuery/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -44,8 +45,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OTXQuery",
         "integration_type": null
       }
@@ -61,6 +62,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 1
   }
 }

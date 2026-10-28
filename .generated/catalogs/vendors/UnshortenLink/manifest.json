@@ -8,13 +8,17 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/UnshortenLink/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/UnshortenLink/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -27,8 +31,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/UnshortenLink",
         "integration_type": null
       }
@@ -44,6 +48,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 1
   }
 }

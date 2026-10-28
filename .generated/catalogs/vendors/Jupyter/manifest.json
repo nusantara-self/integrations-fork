@@ -8,7 +8,8 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -17,7 +18,7 @@
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": true,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Jupyter/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Jupyter/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -44,8 +45,8 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Jupyter",
         "integration_type": null
       }
@@ -65,8 +66,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Jupyter",
         "integration_type": null
       }
@@ -81,6 +82,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 2
   }
 }

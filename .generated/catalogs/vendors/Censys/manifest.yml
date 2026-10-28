@@ -10,7 +10,8 @@ homepage: https://censys.io
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -19,7 +20,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Censys/overview.md
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Censys/overview.md
 integrations:
   analyzers:
   - name: Censys
@@ -32,8 +33,8 @@ integrations:
     - hash
     - domain
     file: .upstream/cortex/analyzers/Censys/Censys.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Censys/Censys.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Censys/Censys.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Censys/Censys.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Censys/Censys.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Censys
     integration_type: null
   responders: []
@@ -46,4 +47,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1

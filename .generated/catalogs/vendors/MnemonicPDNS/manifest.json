@@ -13,36 +13,24 @@
   "homepage": "https://www.mnemonic.no",
   "logo": {
     "file": "integrations/vendors/MnemonicPDNS/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MnemonicPDNS/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/MnemonicPDNS/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/MnemonicPDNS/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/MnemonicPDNS/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/MnemonicPDNS/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/MnemonicPDNS/overview.md",
   "integrations": {
     "analyzers": [
-      {
-        "name": "Mnemonic pDNS Closed",
-        "version": "3.0",
-        "author": "Michael Stensrud, Nordic Financial CERT",
-        "license": "AGPL-V3",
-        "description": "Query IP addresses and domains against Mnemonic pDNS restricted service.",
-        "dataTypes": [
-          "ip",
-          "domain"
-        ],
-        "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS",
-        "integration_type": null
-      },
       {
         "name": "Mnemonic pDNS Public",
         "version": "3.0",
@@ -54,8 +42,24 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS",
+        "integration_type": null
+      },
+      {
+        "name": "Mnemonic pDNS Closed",
+        "version": "3.0",
+        "author": "Michael Stensrud, Nordic Financial CERT",
+        "license": "AGPL-V3",
+        "description": "Query IP addresses and domains against Mnemonic pDNS restricted service.",
+        "dataTypes": [
+          "ip",
+          "domain"
+        ],
+        "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS",
         "integration_type": null
       }
@@ -71,6 +75,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 2
   }
 }

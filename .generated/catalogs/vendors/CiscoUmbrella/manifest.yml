@@ -10,11 +10,12 @@ tags: []
 homepage: https://umbrella.cisco.com
 logo:
   file: integrations/vendors/CiscoUmbrella/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/CiscoUmbrella/assets/logo.png
-  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/CiscoUmbrella/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/CiscoUmbrella/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/CiscoUmbrella/assets/logo.png
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -23,7 +24,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/CiscoUmbrella/overview.md
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/CiscoUmbrella/overview.md
 integrations:
   analyzers:
   - name: CiscoUmbrella Report
@@ -35,8 +36,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/CiscoUmbrella/Umbrella_Report.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoUmbrella
     integration_type: null
   responders:
@@ -48,8 +49,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/CiscoUmbrella/UmbrellaBlacklister.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoUmbrella
     integration_type: null
   functions: []
@@ -61,4 +62,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 2

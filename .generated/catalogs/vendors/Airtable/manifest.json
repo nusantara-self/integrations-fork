@@ -8,13 +8,17 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Airtable/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Airtable/overview.md",
   "integrations": {
     "analyzers": [],
     "responders": [],
@@ -27,8 +31,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js"
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js"
       }
     ]
   },
@@ -40,6 +44,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 1
   }
 }

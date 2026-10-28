@@ -22,9 +22,10 @@ Built something useful? Contributions are welcome!
 - **Total Responders:** 163
 - **Total Functions:** 7
 - **Total Notifiers:** 8
-- **Total Flow nodes:** 14
+- **Total TheHive Flow nodes:** 14
+- **Total Workflows:** 2
 - **Total External Integrations:** 12
-- **Total Integrations:** 492
+- **Total Integrations:** 494
 
 ## Vendors by Category
 
@@ -97,7 +98,7 @@ Built something useful? Contributions are welcome!
 
 **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/CiscoAMPforEndpoints/overview.md)** (5 integrations)
 
-**[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** (22 integrations)
+**[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** (24 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
 **[HarfangLab](vendors/HarfangLab/overview.md)** (33 integrations)
@@ -632,7 +633,7 @@ Built something useful? Contributions are welcome!
 - **[Cluster25](vendors/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](vendors/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CrowdSec](vendors/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 11 analyzers, 9 responders, flow nodes, 1 external
+- **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 11 analyzers, 9 responders, TheHive Flow node, 2 workflows, 1 external
 - **[Crtsh](vendors/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cuckoo Sandbox](vendors/CuckooSandbox/overview.md)** - *Malware Analysis* - 2 analyzers
 - **[CyberChef](vendors/CyberChef/overview.md)** - *Uncategorized* - 3 analyzers
@@ -650,7 +651,7 @@ Built something useful? Contributions are welcome!
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
-- **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 responders, flow nodes, 1 external
+- **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 responders, TheHive Flow node, 1 external
 - **[Email](vendors/Email/overview.md)** - *Collaboration* - notifier
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
@@ -668,7 +669,7 @@ Built something useful? Contributions are welcome!
 - **[GoogleDNS](vendors/GoogleDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[GreyNoise](vendors/GreyNoise/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[GRR Rapid Response](vendors/GRR/overview.md)** - *DFIR* - 1 analyzers
-- **[HarfangLab](vendors/HarfangLab/overview.md)** - *EDR* - 31 responders, flow nodes, 1 external
+- **[HarfangLab](vendors/HarfangLab/overview.md)** - *EDR* - 31 responders, TheHive Flow node, 1 external
 - **[Hashdd](vendors/Hashdd/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Have I Been Pwned](vendors/HIBP/overview.md)** - *Breach Intelligence* - 1 analyzers
 - **[HTTP Request](vendors/HttpRequest/overview.md)** - *SOAR & Automation* - notifier
@@ -684,7 +685,7 @@ Built something useful? Contributions are welcome!
 - **[isMalicious](vendors/isMalicious/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IVRE](vendors/IVRE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[JAMFProtect](vendors/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders, 1 functions
-- **[Jira Cloud](vendors/JIRA/overview.md)** - *Collaboration* - 1 functions, flow nodes
+- **[Jira Cloud](vendors/JIRA/overview.md)** - *Collaboration* - 1 functions, TheHive Flow node
 - **[Joe Sandbox](vendors/JoeSandbox/overview.md)** - *Uncategorized* - 3 analyzers
 - **[Jupyter](vendors/Jupyter/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Kaspersky TIP](vendors/KasperskyTIP/overview.md)** - *Uncategorized* - 1 analyzers
@@ -704,12 +705,12 @@ Built something useful? Contributions are welcome!
 - **[Mattermost](vendors/Mattermost/overview.md)** - *Collaboration* - notifier
 - **[MaxMind](vendors/MaxMind/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[MetaDefender](vendors/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
-- **[Microsoft Defender (via Graph Security API)](vendors/MSDefenderGraphSecurityAPI/overview.md)** - *SIEM & Analytics* - flow nodes
-- **[Microsoft Defender for Endpoint](vendors/MSDefenderForEndpoint/overview.md)** - *EDR* - 2 analyzers, 12 responders, flow nodes
+- **[Microsoft Defender (via Graph Security API)](vendors/MSDefenderGraphSecurityAPI/overview.md)** - *SIEM & Analytics* - TheHive Flow node
+- **[Microsoft Defender for Endpoint](vendors/MSDefenderForEndpoint/overview.md)** - *EDR* - 2 analyzers, 12 responders, TheHive Flow node
 - **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
-- **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 7 analyzers, 5 responders, flow nodes
+- **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 7 analyzers, 5 responders, TheHive Flow node
 - **[Microsoft Exchange Online](vendors/MSExchangeOnline/overview.md)** - *Email Security* - 1 analyzers, 1 responders
-- **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** - *SIEM & Analytics* - 1 functions, flow nodes
+- **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** - *SIEM & Analytics* - 1 functions, TheHive Flow node
 - **[Microsoft Teams](vendors/MSTeams/overview.md)** - *Collaboration* - notifier
 - **[MineMeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
@@ -744,7 +745,7 @@ Built something useful? Contributions are welcome!
 - **[QrDecode](vendors/QrDecode/overview.md)** - *Utilities* - 1 analyzers
 - **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
 - **[RDAP](vendors/RDAP/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers, flow nodes
+- **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers, TheHive Flow node
 - **[Redis](vendors/Redis/overview.md)** - *SOAR & Automation* - notifier
 - **[Redmine](vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[Request Tracker (RT4)](vendors/RT4/overview.md)** - *Collaboration* - 1 responders
@@ -755,23 +756,23 @@ Built something useful? Contributions are welcome!
 - **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Threat Intelligence* - 3 analyzers
 - **[SendGrid](vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
 - **[SentinelOne](vendors/SentinelOne/overview.md)** - *Uncategorized* - 3 analyzers, 1 responders
-- **[ServiceNow](vendors/ServiceNow/overview.md)** - *Collaboration* - flow nodes
+- **[ServiceNow](vendors/ServiceNow/overview.md)** - *Collaboration* - TheHive Flow node
 - **[Shodan](vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
 - **[Shuffle](vendors/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[SinkDB](vendors/SinkDB/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders, notifier, flow nodes
+- **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders, notifier, TheHive Flow node
 - **[Soltra Edge](vendors/SoltraEdge/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SophosIntelix](vendors/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](vendors/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SpamhausDBL](vendors/SpamhausDBL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 responders, 1 functions, flow nodes, 2 external
+- **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 responders, 1 functions, TheHive Flow node, 2 external
 - **[StamusNetworks](vendors/StamusNetworks/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](vendors/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Suspicious](vendors/Suspicious/overview.md)** - *Uncategorized* - 1 responders
 - **[Telegram](vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[Test Analyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
-- **[TheHive](vendors/TheHive/overview.md)** - *SOAR & Automation* - flow nodes
+- **[TheHive](vendors/TheHive/overview.md)** - *SOAR & Automation* - TheHive Flow node
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
 - **[ThreatFox](vendors/ThreatFox/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
@@ -790,7 +791,7 @@ Built something useful? Contributions are welcome!
 - **[Velociraptor](vendors/Velociraptor/overview.md)** - *DFIR* - 1 responders
 - **[Verifalia](vendors/Verifalia/overview.md)** - *Uncategorized* - 1 analyzers
 - **[VirusShare](vendors/Virusshare/overview.md)** - *Malware Analysis* - 1 analyzers
-- **[VirusTotal](vendors/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers, flow nodes
+- **[VirusTotal](vendors/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers, TheHive Flow node
 - **[VMRay](vendors/VMRay/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Vulners](vendors/Vulners/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Watcher](vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 4 responders

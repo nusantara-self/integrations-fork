@@ -13,12 +13,13 @@
   "homepage": "https://urlscan.io",
   "logo": {
     "file": "integrations/vendors/Urlscan.io/assets/logo.ico",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Urlscan.io/assets/logo.ico",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Urlscan.io/assets/logo.ico"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/Urlscan.io/assets/logo.ico",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Urlscan.io/assets/logo.ico"
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 15,
@@ -27,7 +28,7 @@
   "registration_required": true,
   "subscription_required": false,
   "free_subscription": true,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Urlscan.io/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Urlscan.io/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -44,8 +45,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io",
         "integration_type": null
       },
@@ -61,8 +62,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io",
         "integration_type": null
       }
@@ -78,6 +79,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 2
   }
 }

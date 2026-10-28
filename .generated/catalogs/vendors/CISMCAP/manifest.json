@@ -8,7 +8,8 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -17,7 +18,7 @@
   "registration_required": true,
   "subscription_required": false,
   "free_subscription": false,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/CISMCAP/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/CISMCAP/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -35,8 +36,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CISMCAP/CISMCAP.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CISMCAP/CISMCAP.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CISMCAP/CISMCAP.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/CISMCAP/CISMCAP.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/CISMCAP/CISMCAP.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CISMCAP",
         "integration_type": null
       }
@@ -52,6 +53,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 1
   }
 }

@@ -22,12 +22,16 @@ flow:
   - Turn an external detection into a TheHive alert with its observables
   - Auto-promote an alert to a case and create the standard playbook tasks
   - Run Cortex analyzers on every new observable, then comment the verdict in the case
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/TheHive/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/TheHive/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -40,4 +44,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 1

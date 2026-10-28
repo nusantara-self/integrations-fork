@@ -8,16 +8,17 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoWildFire/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/PaloAltoWildFire/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -32,8 +33,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoWildFire",
         "integration_type": null
       }
@@ -51,8 +52,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoWildFire",
         "integration_type": null
       }
@@ -67,6 +68,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 2
   }
 }

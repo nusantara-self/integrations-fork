@@ -8,16 +8,17 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/DomainToolsIris/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/DomainToolsIris/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -30,8 +31,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris",
         "integration_type": null
       },
@@ -47,28 +48,13 @@
           "mail"
         ],
         "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris",
         "integration_type": null
       }
     ],
     "responders": [
-      {
-        "name": "DomainToolsIris CheckMaliciousTags",
-        "version": "1.0",
-        "author": "DomainTools",
-        "license": "AGPL-V3",
-        "description": "Add Tag saying that the observable and case have a malicious tag in their Iris Tags.",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris",
-        "integration_type": null
-      },
       {
         "name": "DomainToolsIris AddRiskyDNSTag",
         "version": "1.0",
@@ -79,8 +65,23 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris",
+        "integration_type": null
+      },
+      {
+        "name": "DomainToolsIris CheckMaliciousTags",
+        "version": "1.0",
+        "author": "DomainTools",
+        "license": "AGPL-V3",
+        "description": "Add Tag saying that the observable and case have a malicious tag in their Iris Tags.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris",
         "integration_type": null
       }
@@ -95,6 +96,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 4
   }
 }

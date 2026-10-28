@@ -10,8 +10,8 @@ tags: []
 homepage: https://azure.microsoft.com/products/microsoft-sentinel
 logo:
   file: integrations/vendors/MSSentinel/assets/logo.svg
-  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MSSentinel/assets/logo.svg
-  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/MSSentinel/assets/logo.svg
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/MSSentinel/assets/logo.svg
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/MSSentinel/assets/logo.svg
 useCases: []
 notifier: false
 flow:
@@ -20,12 +20,16 @@ flow:
   - Import Sentinel incidents with their entities as TheHive alerts and observables
   - Write the TheHive analysis back as a comment on the Sentinel incident
   - Close the Sentinel incident with the right classification when the case is closed
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 5
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/MSSentinel/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/MSSentinel/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -38,8 +42,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
 stats:
   totalAnalyzers: 0
   totalResponders: 0
@@ -48,4 +52,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 2

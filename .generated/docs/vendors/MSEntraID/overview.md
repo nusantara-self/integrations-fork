@@ -2,17 +2,10 @@
 
 ### Enrich observables with intelligence
 
-#### [MSEntraID GetSignInsByIP v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
-Pull all Microsoft Entra ID sign ins across the tenant that originated from a given IP address, within the specified amount of time.
+#### [MSEntraID GetDirectoryAuditLogs v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
+Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.
 
-- **Author:** 3lina, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `ip`
-
-#### [MSEntraID GetDirectoryRoles v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
-List the Microsoft Entra ID directory roles (built-in admin roles) directly assigned to a user, to help prioritize investigations involving privileged accounts.
-
-- **Author:** 3lina, StrangeBee
+- **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `mail`
 
@@ -20,13 +13,6 @@ List the Microsoft Entra ID directory roles (built-in admin roles) directly assi
 Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
 
 - **Author:** @jahamilto
-- **License:** AGPL-V3
-- **Data Types:** `mail`
-
-#### [MSEntraID GetRiskyUser v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
-Retrieve Microsoft Entra ID Identity Protection risk information for a user: current risk state (riskyUsers) and risk detection history (riskDetections). Requires Entra ID P1/P2.
-
-- **Author:** StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `mail`
 
@@ -44,10 +30,24 @@ Get Microsoft Intune Managed Device(s) Details from hostname or mail
 - **License:** AGPL-V3
 - **Data Types:** `mail`, `hostname`
 
-#### [MSEntraID GetDirectoryAuditLogs v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
-Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.
+#### [MSEntraID GetSignInsByIP v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
+Pull all Microsoft Entra ID sign ins across the tenant that originated from a given IP address, within the specified amount of time.
 
-- **Author:** Fabien Bloume, StrangeBee
+- **Author:** 3lina, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `ip`
+
+#### [MSEntraID GetRiskyUser v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
+Retrieve Microsoft Entra ID Identity Protection risk information for a user: current risk state (riskyUsers) and risk detection history (riskDetections). Requires Entra ID P1/P2.
+
+- **Author:** StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `mail`
+
+#### [MSEntraID GetDirectoryRoles v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
+List the Microsoft Entra ID directory roles (built-in admin roles) directly assigned to a user, to help prioritize investigations involving privileged accounts.
+
+- **Author:** 3lina, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `mail`
 
@@ -57,10 +57,10 @@ Pull Microsoft Entra ID directory audit logs for a user within the specified tim
 
 ### Trigger automated responses
 
-#### [MSEntraID ForcePasswordResetWithMFA v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID)
-Force password reset at next login with MFA verification before password change for a User Principal Name. (mail)
+#### [MSEntraID revokeSignInSessions v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID)
+Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session cookies in a user's browser)
 
-- **Author:** nusatanra-self, StrangeBee
+- **Author:** Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
@@ -71,15 +71,8 @@ Enable user in Microsoft Entra ID for a User Principal Name. (mail)
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [MSEntraID revokeSignInSessions v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID)
-Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session cookies in a user's browser)
-
-- **Author:** Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [MSEntraID disableUser v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID)
-Disable user in Microsoft Entra ID for a User Principal Name. (mail)
+#### [MSEntraID ForcePasswordResetWithMFA v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID)
+Force password reset at next login with MFA verification before password change for a User Principal Name. (mail)
 
 - **Author:** nusatanra-self, StrangeBee
 - **License:** AGPL-V3
@@ -92,9 +85,16 @@ Force password reset at next login for a User Principal Name. (mail)
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
+#### [MSEntraID disableUser v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID)
+Disable user in Microsoft Entra ID for a User Principal Name. (mail)
+
+- **Author:** nusatanra-self, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
 ---
 
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -106,4 +106,4 @@ Investigate and contain compromised identities in Microsoft Entra ID.
 - Enrich a user observable with roles, groups and MFA status to assess impact
 - Review recent sign-ins and risk detections for a suspected account takeover
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

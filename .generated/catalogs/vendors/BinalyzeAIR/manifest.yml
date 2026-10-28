@@ -10,7 +10,8 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -19,22 +20,10 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/BinalyzeAIR/overview.md
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/BinalyzeAIR/overview.md
 integrations:
   analyzers: []
   responders:
-  - name: Binalyze AIR Isolation
-    version: '1.0'
-    author: Binalyze Integration Team
-    license: AGPL-V3
-    description: Isolate your endpoints with Binalyze AIR.
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR
-    integration_type: null
   - name: Binalyze AIR Acquisition
     version: '1.0'
     author: Binalyze Integration Team
@@ -43,8 +32,20 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR
+    integration_type: null
+  - name: Binalyze AIR Isolation
+    version: '1.0'
+    author: Binalyze Integration Team
+    license: AGPL-V3
+    description: Isolate your endpoints with Binalyze AIR.
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR
     integration_type: null
   functions: []
@@ -56,4 +57,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 2

@@ -10,29 +10,19 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/BackscatterIO/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/BackscatterIO/overview.md
 integrations:
   analyzers:
-  - name: BackscatterIO GetObservations
-    version: '1.0'
-    author: brandon@backscatter.io
-    license: APLv2
-    description: Determine whether a value has known scanning activity using Backscatter.io data.
-    dataTypes:
-    - ip
-    - network
-    - autonomous-system
-    file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/BackscatterIO
-    integration_type: null
   - name: BackscatterIO Enrichment
     version: '1.0'
     author: brandon@backscatter.io
@@ -44,8 +34,22 @@ integrations:
     - autonomous-system
     - port
     file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_Enrichment.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/BackscatterIO
+    integration_type: null
+  - name: BackscatterIO GetObservations
+    version: '1.0'
+    author: brandon@backscatter.io
+    license: APLv2
+    description: Determine whether a value has known scanning activity using Backscatter.io data.
+    dataTypes:
+    - ip
+    - network
+    - autonomous-system
+    file: .upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/BackscatterIO/BackscatterIO_GetObservations.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/BackscatterIO
     integration_type: null
   responders: []
@@ -58,4 +62,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 2

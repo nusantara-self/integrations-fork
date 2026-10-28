@@ -10,13 +10,17 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/SophosIntelix/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/SophosIntelix/overview.md
 integrations:
   analyzers:
   - name: SophosIntelix Submit Static
@@ -29,21 +33,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
-    integration_type: null
-  - name: SophosIntelix Submit Dynamic
-    version: '0.1'
-    author: SOL
-    license: AGPL-V3
-    description: Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information
-      or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
-    dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
     integration_type: null
   - name: SophosIntelix GetReport
@@ -58,8 +49,21 @@ integrations:
     - fqdn
     - url
     file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
+    integration_type: null
+  - name: SophosIntelix Submit Dynamic
+    version: '0.1'
+    author: SOL
+    license: AGPL-V3
+    description: Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information
+      or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
+    dataTypes:
+    - file
+    file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
     integration_type: null
   responders: []
@@ -72,4 +76,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 3

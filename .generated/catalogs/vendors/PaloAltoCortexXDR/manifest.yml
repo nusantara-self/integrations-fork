@@ -10,41 +10,30 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoCortexXDR/overview.md
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/PaloAltoCortexXDR/overview.md
 integrations:
   analyzers: []
   responders:
-  - name: PaloAltoCortexXDR unisolate
+  - name: PaloAltoCortexXDR cancel scan
     version: '1.0'
-    author: Joe Lazaro
+    author: Joe Lazaro; Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Unisolate endpoints identified by hostname or IP list
+    description: Cancel a running scan on endpoints identified by hostname or IP list
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
-    integration_type: null
-  - name: PaloAltoCortexXDR scan
-    version: '1.0'
-    author: Joe Lazaro
-    license: AGPL-V3
-    description: Scan endpoints identified by hostname or IP list
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_cancel_scan.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_cancel_scan.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_cancel_scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
   - name: PaloAltoCortexXDR allow list
@@ -55,44 +44,20 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_allow_list.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_allow_list.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_allow_list.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_allow_list.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_allow_list.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
-  - name: PaloAltoCortexXDR isolate
+  - name: PaloAltoCortexXDR scan
     version: '1.0'
     author: Joe Lazaro
     license: AGPL-V3
-    description: Isolate endpoints identified by hostname or IP list
+    description: Scan endpoints identified by hostname or IP list
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
-    integration_type: null
-  - name: PaloAltoCortexXDR block list
-    version: '1.0'
-    author: Joe Lazaro; Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Add a file hash to the Cortex XDR block list
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
-    integration_type: null
-  - name: PaloAltoCortexXDR cancel scan
-    version: '1.0'
-    author: Joe Lazaro; Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Cancel a running scan on endpoints identified by hostname or IP list
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_cancel_scan.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_cancel_scan.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_cancel_scan.json
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
   - name: PaloAltoCortexXDR initiate forensics
@@ -103,8 +68,44 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
+    integration_type: null
+  - name: PaloAltoCortexXDR isolate
+    version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
+    description: Isolate endpoints identified by hostname or IP list
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
+    integration_type: null
+  - name: PaloAltoCortexXDR unisolate
+    version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
+    description: Unisolate endpoints identified by hostname or IP list
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
+    integration_type: null
+  - name: PaloAltoCortexXDR block list
+    version: '1.0'
+    author: Joe Lazaro; Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Add a file hash to the Cortex XDR block list
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
   - name: PaloAltoCortexXDR restore file
@@ -115,8 +116,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
   functions: []
@@ -128,4 +129,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 8

@@ -1,4 +1,4 @@
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -10,4 +10,4 @@ Manage Microsoft 365 Defender alerts and incidents through the unified Graph Sec
 - Assign or classify the Defender incident when the TheHive case is closed
 - Keep incident status in sync between Defender and TheHive
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

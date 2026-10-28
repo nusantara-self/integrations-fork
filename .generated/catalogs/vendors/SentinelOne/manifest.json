@@ -8,7 +8,8 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -17,7 +18,7 @@
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/SentinelOne/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/SentinelOne/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -30,8 +31,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne",
         "integration_type": null
       },
@@ -47,8 +48,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne",
         "integration_type": null
       },
@@ -64,8 +65,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne",
         "integration_type": null
       }
@@ -81,8 +82,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/SentinelOne",
         "integration_type": null
       }
@@ -97,6 +98,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 4
   }
 }

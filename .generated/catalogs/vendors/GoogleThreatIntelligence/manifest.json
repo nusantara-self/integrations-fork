@@ -15,25 +15,39 @@
   "homepage": "https://threatlabs.google.com",
   "logo": {
     "file": "integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/GoogleThreatIntelligence/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/GoogleThreatIntelligence/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 7,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
   "registration_required": true,
-  "subscription_required": [
-    true,
-    false
-  ],
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/GoogleThreatIntelligence/overview.md",
+  "subscription_required": true,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/GoogleThreatIntelligence/overview.md",
   "integrations": {
     "analyzers": [
+      {
+        "name": "GTI ScanPrivateURL",
+        "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
+        "description": "Get the latest Google Threat Intelligence report for a URL that was privately submitted to Google Threat Intelligence for scanning",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
+        "integration_type": null
+      },
       {
         "name": "GTI GetIOCReport",
         "version": "1.0",
@@ -49,53 +63,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
-        "integration_type": null
-      },
-      {
-        "name": "GTI ScanPrivateURL",
-        "version": "1.0",
-        "author": "Google",
-        "license": "AGPL-V3",
-        "description": "Get the latest Google Threat Intelligence report for a URL that was privately submitted to Google Threat Intelligence for scanning",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
-        "integration_type": null
-      },
-      {
-        "name": "GTI ScanPrivateFile",
-        "version": "1.0",
-        "author": "Google",
-        "license": "AGPL-V3",
-        "description": "Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning",
-        "dataTypes": [
-          "file"
-        ],
-        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
-        "integration_type": null
-      },
-      {
-        "name": "GTI ScanURL",
-        "version": "1.0",
-        "author": "Google",
-        "license": "AGPL-V3",
-        "description": "Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence for scanning",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
         "integration_type": null
       },
@@ -109,8 +78,38 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
+        "integration_type": null
+      },
+      {
+        "name": "GTI ScanURL",
+        "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
+        "description": "Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence for scanning",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
+        "integration_type": null
+      },
+      {
+        "name": "GTI ScanPrivateFile",
+        "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
+        "description": "Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
         "integration_type": null
       }
@@ -126,6 +125,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 5
   }
 }

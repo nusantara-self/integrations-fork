@@ -15,11 +15,12 @@ tags:
 homepage: https://www.onyphe.io
 logo:
   file: integrations/vendors/Onyphe/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Onyphe/assets/logo.png
-  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Onyphe/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/Onyphe/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Onyphe/assets/logo.png
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 17
@@ -28,54 +29,9 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: true
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Onyphe/overview.md
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Onyphe/overview.md
 integrations:
   analyzers:
-  - name: ONYPHE Search
-    version: '1.1'
-    author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
-    license: AGPL-V3
-    description: Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from
-      specified category
-    dataTypes:
-    - ip
-    - domain
-    - fqdn
-    - hash
-    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
-    integration_type: null
-  - name: ONYPHE ASM
-    version: '1.1'
-    author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
-    license: AGPL-V3
-    description: Manage an attack surface from The Hive using ONYPHE riskscan category
-    dataTypes:
-    - ip
-    - domain
-    - fqdn
-    - hash
-    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
-    integration_type: null
-  - name: ONYPHE Summary API
-    version: '1.2'
-    author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
-    license: AGPL-V3
-    description: Retrieve summary information Onyphe has for given ip, domain, or fqdn.
-    dataTypes:
-    - ip
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
-    integration_type: null
   - name: ONYPHE Ctiscan
     version: '1.0'
     author: James Atack
@@ -90,8 +46,22 @@ integrations:
     - autonomous-system
     - other
     file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
+    integration_type: null
+  - name: ONYPHE Summary API
+    version: '1.2'
+    author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+    license: AGPL-V3
+    description: Retrieve summary information Onyphe has for given ip, domain, or fqdn.
+    dataTypes:
+    - ip
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
     integration_type: null
   - name: ONYPHE Vulnscan
@@ -106,8 +76,39 @@ integrations:
     - fqdn
     - hash
     file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
+    integration_type: null
+  - name: ONYPHE Search
+    version: '1.1'
+    author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+    license: AGPL-V3
+    description: Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from
+      specified category
+    dataTypes:
+    - ip
+    - domain
+    - fqdn
+    - hash
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
+    integration_type: null
+  - name: ONYPHE ASM
+    version: '1.1'
+    author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+    license: AGPL-V3
+    description: Manage an attack surface from The Hive using ONYPHE riskscan category
+    dataTypes:
+    - ip
+    - domain
+    - fqdn
+    - hash
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
     integration_type: null
   responders: []
@@ -120,4 +121,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 5

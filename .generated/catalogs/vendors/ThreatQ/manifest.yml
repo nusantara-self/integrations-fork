@@ -16,11 +16,12 @@ tags:
 homepage: https://www.threatq.com
 logo:
   file: integrations/vendors/ThreatQ/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/ThreatQ/assets/logo.png
-  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/ThreatQ/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/ThreatQ/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/ThreatQ/assets/logo.png
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations:
 - name: The Hive App for ThreatQ
   description: Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ
@@ -29,10 +30,13 @@ externalIntegrations:
   type: connector
   documentation: https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/ThreatQ/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/ThreatQ/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -45,4 +49,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1

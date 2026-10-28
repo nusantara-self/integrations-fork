@@ -10,16 +10,17 @@ homepage: ''
 logo: {}
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: false
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: true
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/CyberCrime-Tracker/overview.md
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/CyberCrime-Tracker/overview.md
 integrations:
   analyzers:
   - name: CyberCrime-Tracker
@@ -34,8 +35,8 @@ integrations:
     - url
     - other
     file: .upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberCrime-Tracker
     integration_type: null
   responders: []
@@ -48,4 +49,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1

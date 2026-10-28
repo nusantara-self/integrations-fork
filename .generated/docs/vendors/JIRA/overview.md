@@ -1,4 +1,4 @@
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -10,14 +10,14 @@ Create and follow Jira issues from SOC workflows, with full Jira Cloud REST v3 c
 - Link the Jira issue back to the TheHive case and comment progress
 - Close the case automatically when the Jira issue is resolved
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.
 
 ---
 
-## Functions (1)
+## Function (1)
 
 ### Automate TheHive actions or ingest alerts
 
-#### [alertFromJIRA](https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js) `v1.0.0`
+#### [alertFromJIRA](https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js) `v1.0.0`
 This function creates alerts from JIRA issues. It checks if the alert already exists, then creates it with type, source, source-ref, title, and description
 

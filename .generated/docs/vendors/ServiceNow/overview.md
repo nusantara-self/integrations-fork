@@ -1,4 +1,4 @@
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -10,4 +10,4 @@ Connect SOC workflows with ServiceNow incidents, change requests, CMDB and any c
 - Enrich a host observable with its CMDB owner and criticality
 - Raise a change request before a firewall block or a mass password reset
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

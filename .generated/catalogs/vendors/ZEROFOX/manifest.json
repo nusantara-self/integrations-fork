@@ -8,13 +8,17 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/ZEROFOX/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/ZEROFOX/overview.md",
   "integrations": {
     "analyzers": [],
     "responders": [
@@ -28,8 +32,8 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX",
         "integration_type": null
       },
@@ -43,8 +47,8 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX",
         "integration_type": null
       }
@@ -59,6 +63,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 2
   }
 }

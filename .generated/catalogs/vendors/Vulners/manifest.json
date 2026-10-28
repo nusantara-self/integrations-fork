@@ -8,7 +8,8 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -17,24 +18,9 @@
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": true,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Vulners/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Vulners/overview.md",
   "integrations": {
     "analyzers": [
-      {
-        "name": "Vulners CVE",
-        "version": "1.0",
-        "author": "Dmitry Uchakin, Vulners team",
-        "license": "AGPL-V3",
-        "description": "Get information about CVE from powerful Vulners database.",
-        "dataTypes": [
-          "cve"
-        ],
-        "file": ".upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners",
-        "integration_type": null
-      },
       {
         "name": "Vulners IOC",
         "version": "1.0",
@@ -47,8 +33,23 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Vulners/Vulners_IOC.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners",
+        "integration_type": null
+      },
+      {
+        "name": "Vulners CVE",
+        "version": "1.0",
+        "author": "Dmitry Uchakin, Vulners team",
+        "license": "AGPL-V3",
+        "description": "Get information about CVE from powerful Vulners database.",
+        "dataTypes": [
+          "cve"
+        ],
+        "file": ".upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners",
         "integration_type": null
       }
@@ -64,6 +65,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 2
   }
 }

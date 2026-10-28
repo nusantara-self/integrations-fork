@@ -7,18 +7,22 @@
   "homepage": "https://www.ovhcloud.com",
   "logo": {
     "file": "integrations/vendors/OvhCloud/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/OvhCloud/assets/logo.svg",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/OvhCloud/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/OvhCloud/assets/logo.svg",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/OvhCloud/assets/logo.svg"
   },
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/OvhCloud/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/OvhCloud/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -33,8 +37,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OvhCloud",
         "integration_type": null
       }
@@ -50,8 +54,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
         "integration_type": null
       },
@@ -65,8 +69,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
         "integration_type": null
       }
@@ -81,6 +85,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 3
   }
 }

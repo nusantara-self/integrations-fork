@@ -8,13 +8,17 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/PaloAltoAutofocus/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/PaloAltoAutofocus/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -27,8 +31,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus",
         "integration_type": null
       },
@@ -42,8 +46,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus",
         "integration_type": null
       },
@@ -64,8 +68,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus",
         "integration_type": null
       }
@@ -81,6 +85,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 3
   }
 }

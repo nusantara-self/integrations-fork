@@ -8,33 +8,19 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "Enrich observables with behavioral threat intelligence",
   "analyzerDisplayName": "ANY.RUN",
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/AnyRun/overview.md",
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/AnyRun/overview.md",
   "integrations": {
     "analyzers": [
-      {
-        "name": "ANY.RUN Sandbox URL Windows",
-        "version": "1.0",
-        "author": "ANY.RUN Integrations Team",
-        "license": "AGPL-V3",
-        "description": "Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
-        "integration_type": null
-      },
       {
         "name": "ANY.RUN Sandbox URL Android",
         "version": "1.0",
@@ -45,38 +31,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
-        "integration_type": null
-      },
-      {
-        "name": "ANY.RUN Sandbox File Linux",
-        "version": "1.0",
-        "author": "ANY.RUN Integrations Team",
-        "license": "AGPL-V3",
-        "description": "Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
-        "dataTypes": [
-          "file"
-        ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
-        "integration_type": null
-      },
-      {
-        "name": "ANY.RUN Sandbox URL Linux",
-        "version": "1.0",
-        "author": "ANY.RUN Integrations Team",
-        "license": "AGPL-V3",
-        "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
         "integration_type": null
       },
@@ -90,23 +46,38 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
         "integration_type": null
       },
       {
-        "name": "ANY.RUN Sandbox File Windows",
+        "name": "ANY.RUN Sandbox URL Linux",
         "version": "1.0",
         "author": "ANY.RUN Integrations Team",
         "license": "AGPL-V3",
-        "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
+        "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
+        "integration_type": null
+      },
+      {
+        "name": "ANY.RUN Sandbox File Linux",
+        "version": "1.0",
+        "author": "ANY.RUN Integrations Team",
+        "license": "AGPL-V3",
+        "description": "Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
         "dataTypes": [
           "file"
         ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
         "integration_type": null
       },
@@ -123,8 +94,38 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
+        "integration_type": null
+      },
+      {
+        "name": "ANY.RUN Sandbox URL Windows",
+        "version": "1.0",
+        "author": "ANY.RUN Integrations Team",
+        "license": "AGPL-V3",
+        "description": "Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
+        "dataTypes": [
+          "url"
+        ],
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
+        "integration_type": null
+      },
+      {
+        "name": "ANY.RUN Sandbox File Windows",
+        "version": "1.0",
+        "author": "ANY.RUN Integrations Team",
+        "license": "AGPL-V3",
+        "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
         "integration_type": null
       }
@@ -140,6 +141,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 7
   }
 }

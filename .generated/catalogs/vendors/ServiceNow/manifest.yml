@@ -21,12 +21,16 @@ flow:
   - Open a ServiceNow incident for the IT team when a remediation is needed
   - Enrich a host observable with its CMDB owner and criticality
   - Raise a change request before a firewall block or a mass password reset
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/ServiceNow/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/ServiceNow/overview.md
 integrations:
   analyzers: []
   responders: []
@@ -39,4 +43,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 1

@@ -8,30 +8,19 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
-  "flow": null,
+  "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Robtex/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Robtex/overview.md",
   "integrations": {
     "analyzers": [
-      {
-        "name": "Robtex IP Query",
-        "version": "1.0",
-        "author": "Nils Kuhnert",
-        "license": "AGPL-V3",
-        "description": "Check IPs using the Robtex IP API.",
-        "dataTypes": [
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex",
-        "integration_type": null
-      },
       {
         "name": "Robtex Forward PDNS Query",
         "version": "1.0",
@@ -43,8 +32,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex",
         "integration_type": null
       },
@@ -58,8 +47,23 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex",
+        "integration_type": null
+      },
+      {
+        "name": "Robtex IP Query",
+        "version": "1.0",
+        "author": "Nils Kuhnert",
+        "license": "AGPL-V3",
+        "description": "Check IPs using the Robtex IP API.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex",
         "integration_type": null
       }
@@ -75,6 +79,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 3
   }
 }

@@ -16,11 +16,12 @@ tags:
 homepage: https://shuffler.io
 logo:
   file: integrations/vendors/Shuffle/assets/logo.png
-  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Shuffle/assets/logo.png
-  github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Shuffle/assets/logo.png
+  url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/Shuffle/assets/logo.png
+  github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Shuffle/assets/logo.png
 useCases: []
 notifier: false
-flow: null
+flow: {}
+workflows: []
 externalIntegrations:
 - name: TheHive 5 Integration
   description: Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management,
@@ -28,10 +29,13 @@ externalIntegrations:
   type: app
   documentation: https://shuffler.io/apps/thehive/integrations/TheHive_5
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Shuffle/overview.md
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Shuffle/overview.md
 integrations:
   analyzers: []
   responders:
@@ -47,8 +51,8 @@ integrations:
     - thehive:case_task
     - thehive:case_task_log
     file: .upstream/cortex/responders/Shuffle/shuffle.json
-    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/Shuffle/shuffle.json
-    github_url: https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/Shuffle/shuffle.json
+    url: https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/Shuffle/shuffle.json
+    github_url: https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/Shuffle/shuffle.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Shuffle
     integration_type: null
   functions: []
@@ -60,4 +64,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 2

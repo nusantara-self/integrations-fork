@@ -13,8 +13,8 @@
   "homepage": "https://www.splunk.com",
   "logo": {
     "file": "integrations/vendors/Splunk/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Splunk/assets/logo.png",
-    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Splunk/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/Splunk/assets/logo.png",
+    "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Splunk/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
@@ -26,6 +26,7 @@
       "Update the Enterprise Security notable or finding status when the case is resolved"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [
     {
       "name": "TheHive/Cortex Technical Add-on",
@@ -44,95 +45,24 @@
   "visibility": 2,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "registration_required": [
-    true,
-    false
-  ],
-  "subscription_required": [
-    true,
-    false
-  ],
-  "free_subscription": [
-    true,
-    false
-  ],
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/Splunk/overview.md",
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": true,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/Splunk/overview.md",
   "integrations": {
     "analyzers": [
       {
-        "name": "Splunk Search User",
-        "version": "3.0",
-        "author": "LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a user ID as argument",
-        "dataTypes": [
-          "other"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk Search Registry",
+        "name": "Splunk Search User Agent",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a registry data as argument",
+        "description": "Execute a savedsearch on a Splunk instance with a user agent as argument",
         "dataTypes": [
-          "registry"
+          "user-agent"
         ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk Search IP",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with an IP as argument",
-        "dataTypes": [
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk Search URL URI Path",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with an URL or a URI path as argument",
-        "dataTypes": [
-          "url",
-          "uri_path"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk Search Domain FQDN",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a domain or a FQDN as argument",
-        "dataTypes": [
-          "domain",
-          "fqdn"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -147,54 +77,38 @@
           "filename"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
       {
-        "name": "Splunk Search Other",
+        "name": "Splunk Search IP",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with an unidentified data as argument",
+        "description": "Execute a savedsearch on a Splunk instance with an IP as argument",
         "dataTypes": [
-          "other"
+          "ip"
         ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
       {
-        "name": "Splunk Search Mail Email",
+        "name": "Splunk Search Hash",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a mail/email as argument",
+        "description": "Execute a savedsearch on a Splunk instance with a hash as argument",
         "dataTypes": [
-          "mail",
-          "email"
+          "hash"
         ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
-        "integration_type": null
-      },
-      {
-        "name": "Splunk Search User Agent",
-        "version": "3.0",
-        "author": "Unit777, LetMeR00t",
-        "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a user agent as argument",
-        "dataTypes": [
-          "user-agent"
-        ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json",
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
@@ -209,23 +123,101 @@
           "mail-subject"
         ],
         "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       },
       {
-        "name": "Splunk Search Hash",
+        "name": "Splunk Search URL URI Path",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
-        "description": "Execute a savedsearch on a Splunk instance with a hash as argument",
+        "description": "Execute a savedsearch on a Splunk instance with an URL or a URI path as argument",
         "dataTypes": [
-          "hash"
+          "url",
+          "uri_path"
         ],
-        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json",
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk Search User",
+        "version": "3.0",
+        "author": "LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with a user ID as argument",
+        "dataTypes": [
+          "other"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk Search Mail Email",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with a mail/email as argument",
+        "dataTypes": [
+          "mail",
+          "email"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk Search Domain FQDN",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with a domain or a FQDN as argument",
+        "dataTypes": [
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk Search Other",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with an unidentified data as argument",
+        "dataTypes": [
+          "other"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
+        "integration_type": null
+      },
+      {
+        "name": "Splunk Search Registry",
+        "version": "3.0",
+        "author": "Unit777, LetMeR00t",
+        "license": "AGPL-V3",
+        "description": "Execute a savedsearch on a Splunk instance with a registry data as argument",
+        "dataTypes": [
+          "registry"
+        ],
+        "file": ".upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk",
         "integration_type": null
       }
@@ -242,8 +234,8 @@
           "thehive:alert"
         ],
         "file": ".upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Splunk",
         "integration_type": "external_api"
       }
@@ -257,8 +249,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
-        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
-        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/flow-nodes/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js"
+        "url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js",
+        "github_url": "https://github.com/nusantara-self/integrations-fork/blob/workflows/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js"
       }
     ]
   },
@@ -270,6 +262,7 @@
     "totalExternalIntegrations": 2,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 16
   }
 }

@@ -1,4 +1,4 @@
-## Flow nodes (1)
+## TheHive Flow node (1)
 
 ### Orchestrate this vendor from TheHive Flow workflows
 
@@ -10,4 +10,4 @@ Drive TheHive from a workflow: create and update alerts, cases, tasks and observ
 - Auto-promote an alert to a case and create the standard playbook tasks
 - Run Cortex analyzers on every new observable, then comment the verdict in the case
 
-TheHive Flow is a first-party module that requires a TheHive One license.
+TheHive Flow is a first-party module that requires a TheHive ONE license.

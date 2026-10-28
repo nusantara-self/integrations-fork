@@ -22,12 +22,16 @@
       "Keep incident status in sync between Defender and TheHive"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 5,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/flow-nodes/.generated/docs/vendors/MSDefenderGraphSecurityAPI/overview.md",
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/nusantara-self/integrations-fork/refs/heads/workflows/.generated/docs/vendors/MSDefenderGraphSecurityAPI/overview.md",
   "integrations": {
     "analyzers": [],
     "responders": [],
@@ -41,6 +45,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 1
   }
 }
