@@ -9,12 +9,12 @@ Retrieve ip reverse DNS resolutions on Shodan.
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 
-#### [Shodan Search v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
-Search query on Shodan
+#### [Shodan Host v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
+Retrieve key Shodan information on an IP address.
 
 - **Author:** Sebastien Larinier @Sebdraven
 - **License:** AGPL-V3
-- **Data Types:** `other`
+- **Data Types:** `ip`
 
 #### [Shodan Host History v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
 Retrieve Shodan history scan results  for an IP address.
@@ -30,12 +30,12 @@ Retrieve domain resolutions on Shodan.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
 
-#### [Shodan Host v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
-Retrieve key Shodan information on an IP address.
+#### [Shodan Search v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
+Search query on Shodan
 
 - **Author:** Sebastien Larinier @Sebdraven
 - **License:** AGPL-V3
-- **Data Types:** `ip`
+- **Data Types:** `other`
 
 #### [Shodan InfoDomain v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
 Retrieve key Shodan information on a domain.
