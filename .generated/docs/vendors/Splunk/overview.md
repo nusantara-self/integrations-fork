@@ -2,12 +2,12 @@
 
 ### Enrich observables with intelligence
 
-#### [Splunk Search User Agent v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
-Execute a savedsearch on a Splunk instance with a user agent as argument
+#### [Splunk Search Mail Email v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
+Execute a savedsearch on a Splunk instance with a mail/email as argument
 
 - **Author:** Unit777, LetMeR00t
 - **License:** AGPL-V3
-- **Data Types:** `user-agent`
+- **Data Types:** `mail`, `email`
 
 #### [Splunk Search Mail Subject v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
 Execute a savedsearch on a Splunk instance with a mail subject as argument
@@ -16,6 +16,27 @@ Execute a savedsearch on a Splunk instance with a mail subject as argument
 - **License:** AGPL-V3
 - **Data Types:** `mail_subject`, `mail-subject`
 
+#### [Splunk Search User Agent v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
+Execute a savedsearch on a Splunk instance with a user agent as argument
+
+- **Author:** Unit777, LetMeR00t
+- **License:** AGPL-V3
+- **Data Types:** `user-agent`
+
+#### [Splunk Search User v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
+Execute a savedsearch on a Splunk instance with a user ID as argument
+
+- **Author:** LetMeR00t
+- **License:** AGPL-V3
+- **Data Types:** `other`
+
+#### [Splunk Search Registry v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
+Execute a savedsearch on a Splunk instance with a registry data as argument
+
+- **Author:** Unit777, LetMeR00t
+- **License:** AGPL-V3
+- **Data Types:** `registry`
+
 #### [Splunk Search Other v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
 Execute a savedsearch on a Splunk instance with an unidentified data as argument
 
@@ -23,12 +44,12 @@ Execute a savedsearch on a Splunk instance with an unidentified data as argument
 - **License:** AGPL-V3
 - **Data Types:** `other`
 
-#### [Splunk Search Mail Email v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
-Execute a savedsearch on a Splunk instance with a mail/email as argument
+#### [Splunk Search Hash v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
+Execute a savedsearch on a Splunk instance with a hash as argument
 
 - **Author:** Unit777, LetMeR00t
 - **License:** AGPL-V3
-- **Data Types:** `mail`, `email`
+- **Data Types:** `hash`
 
 #### [Splunk Search URL URI Path v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
 Execute a savedsearch on a Splunk instance with an URL or a URI path as argument
@@ -44,27 +65,6 @@ Execute a savedsearch on a Splunk instance with a domain or a FQDN as argument
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
 
-#### [Splunk Search IP v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
-Execute a savedsearch on a Splunk instance with an IP as argument
-
-- **Author:** Unit777, LetMeR00t
-- **License:** AGPL-V3
-- **Data Types:** `ip`
-
-#### [Splunk Search Hash v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
-Execute a savedsearch on a Splunk instance with a hash as argument
-
-- **Author:** Unit777, LetMeR00t
-- **License:** AGPL-V3
-- **Data Types:** `hash`
-
-#### [Splunk Search User v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
-Execute a savedsearch on a Splunk instance with a user ID as argument
-
-- **Author:** LetMeR00t
-- **License:** AGPL-V3
-- **Data Types:** `other`
-
 #### [Splunk Search File Filename v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
 Execute a savedsearch on a Splunk instance with a file/filename as argument
 
@@ -72,12 +72,12 @@ Execute a savedsearch on a Splunk instance with a file/filename as argument
 - **License:** AGPL-V3
 - **Data Types:** `file`, `filename`
 
-#### [Splunk Search Registry v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
-Execute a savedsearch on a Splunk instance with a registry data as argument
+#### [Splunk Search IP v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
+Execute a savedsearch on a Splunk instance with an IP as argument
 
 - **Author:** Unit777, LetMeR00t
 - **License:** AGPL-V3
-- **Data Types:** `registry`
+- **Data Types:** `ip`
 
 ---
 
